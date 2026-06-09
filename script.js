@@ -9,14 +9,14 @@ function getVisibleContainers() {
 
 
 const wallImages = [
-  "Richard petty.png","David-pearson.png","jeff gordon.png","bobby allison.png","darrell Waltrip.png","cale Yarborough.png",
+  "richard petty.png","david pearson.png","jeff gordon.png","bobby allison.png","darrell waltrip.png","cale yarborough.png",
   "jimmie johnson.png","dale sr.png","kyle busch.png","denny hamlin.png","kevin harvick.png","rusty wallace.png","lee petty.png",
   "ned jarrett.png","junior johnson.png","tony stewart.png","herbthomas.png","buck baker.png","bill elliott.png","mark martin.png",
   "tim flock.png","matt kenseth.png","bobbyisaac.png","joeylogano.png","brad keselowski.png","kurtbusch.png","martin truexjr.png","fireball roberts.png",
-  "dalejarrett.png","kyle larson.png","rex white.png","carl edwards.png","fredlorenzen.png","dalejr.png","jimpaschal.png","joe weatherly.png", 
-  "ricky rudd.png","chase elliott.png","terry labonte.png","jack smith.png",  "benny parsons.png","bobby labonte.png","jeff burton.png","speedy Thompson.png",
-  "fonty Flock.png","Buddy Baker.png","Davey Allison.png",  "greg biffle.png","neil bonnett.png","harry gant.png","geoff bodine.png","ryan newman.png","kasey kahne.png",
-  "ryan Blaney.png","curtis turner.png","Marvin Panch.png", "William Byron.png","Ernie Irvan.png","dick hutcherson.png","leeroy yarbrough.png","dick rathman.png",
+  "dalejarrett.png","kyle larson.png","rex white.png","carl edwards.png","fredlorenzen.png","dalejr.png","jim paschal.png","joe weatherly.png", 
+  "ricky rudd.png","chase elliott.png","terry labonte.png","jack smith.png", "benny parsons.png","bobby labonte.png","jeff burton.png","speedy thompson.png",
+  "fonty flock.png","buddy baker.png","davey allison.png",  "greg biffle.png","neil bonnett.png","harry gant.png","geoff bodine.png","ryan newman.png","kasey kahne.png",
+  "ryan blaney.png","curtis turner.png","marvin panch.png", "william byron.png","ernie irvan.png","dick hutcherson.png","leeroy yarbrough.png","dick rathman.png",
   "tim richmond.png","christopher bell.png","donnieallison.png", "tyler reddick.png","sterling marlin.png","clint bowyer.png","bob welborn.png","cotton owens.png",
   "paul goldsmith.png","kyle petty.png","alex bowman.png", "darel dienger.png","jim reed.png","marshall teague.png","ajfoyt.png","jamie mcmurray.png","svg.png",
   "chris buescher.png","ross chastain.png",
