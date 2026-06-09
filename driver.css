@@ -1,0 +1,439 @@
+
+
+@font-face {
+    font-family: 'nascar';
+    src: url(fonts/BERTHOLD\ AKZIDENZ\ GROTESK\ BE\ EXTRA\ BOLD\ CONDENSED.TTF);
+}
+
+
+
+
+.game2{
+    font-family: 'nascar';
+    background-color: rgb(65, 70, 70);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 600px;
+    width: 450px;
+    border-radius: 10px;
+    border: 5px solid black;
+
+    position: relative;
+
+}
+
+#driverguess {
+    background-color: rgb(65, 70, 70);   /* box color */
+    color: white;             /* text color */
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+/* styling^^^^     position below */
+    position: absolute;
+    bottom: 10px;   
+    left: 50%;
+    transform: translateX(-50%); /* center horizontally */
+    width: 80%;    
+}
+
+/* Placeholder text color */
+#driverguess::placeholder {
+    color: rgb(255, 255, 255);
+}
+#overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0,0,0,0.8);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;                 /* invisible */
+    visibility: hidden;        /* not clickable */
+    transition: opacity 0.3s ease, visibility 0.3s;
+
+    z-index: 9998;
+}
+
+#overlay.active{
+    opacity: 1;                /* fade in */
+    visibility: visible;
+    
+}
+#overlay2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0,0,0,0.8);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: opacity 0.3s ease;
+
+    z-index: 9999;
+}
+
+#overlay2.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.test_text{
+    display:flex;
+    justify-content: center;
+   
+}
+.please{
+    display:flex;
+    justify-content: center;
+}
+
+.statsboard{
+    font-family: 'nascar';
+    background-color: rgb(65, 70, 70);
+    
+    height: 600px;
+    width: 450px;
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 0;   
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 40px;
+}
+
+.plays{
+    font-size: 30px;
+}
+.wons{
+    font-size: 30px;
+}
+.lost{
+    font-size: 30px;
+}
+.streak{
+    font-size: 30px;
+}
+.maxstreak{
+    font-size: 30px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* space between square + text */
+    margin-bottom: 10px;
+}
+
+.square {
+    width: 65px;
+    height: 65px;
+    border: 3px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.statsquare {
+    width: 45px;
+    height: 45px;
+    border: 3px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bluesquare{
+    background-color: rgb(42, 164, 177);
+    font-size: 25px;
+}
+.orangesquare{
+    background-color: rgb(230, 135, 18);
+    font-size: 25px;
+}
+.yellowsquare{
+    background-image: url(team_logo/spire.png);
+    background-color: rgb(182, 173, 65);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-indent: -9999999px;
+    position: relative;
+    width: 65px;
+    height: 65px;
+    flex-shrink: 0;
+    font-size: 25px;
+    
+}
+.greensquare{
+    background-color: green;
+    font-size: 25px;
+    
+}
+
+.bar {
+    flex: 1;
+    height: 40px;
+    display: flex;
+}
+
+.barfill {
+    background-color: green;
+    height: 100%;
+    width: 0%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* pushes number right */
+
+    font-size: 40px !important;
+    
+    min-width: 20px; 
+
+    padding-right: 10px;
+    color: white;
+    font-size: 20px;
+
+    transition: width 0.3s ease;
+}
+
+.guess{
+    visibility: hidden;
+    font-size: 15px;
+}
+.starts{
+    visibility: hidden;
+    font-size: 25px;
+}
+.wins{
+    visibility: hidden;
+    font-size: 25px;
+}
+.team{
+    visibility: hidden;
+    font-size: 25px;
+}
+.carnum{
+    visibility: hidden;
+    font-size: 25px;
+}
+.rokyear{
+    visibility: hidden;
+    font-size: 25px;
+}
+.toprow{
+    font-size: 20px;
+}
+
+.reset{
+    background-image: url(images/blade\ guy.png);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    font-size: 200%;
+    text-indent: -9999999px;
+    height: 130px;
+    width: 80px;
+    
+    
+}
+.resetstats{
+    background-image: url(images/aidan.png);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    font-size: 200%;
+    text-indent: -9999999px;
+    height: 130px;
+    width: 80px;
+    
+    
+}
+.luck{
+    visibility: hidden;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+.question{
+    background-image: url(images/question.png);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    font-size: 200%;
+    text-indent: -9999999px;
+    height: 40px;
+    width: 40px;
+    align-self: flex-end;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    
+}
+.stats_button{
+    background-image: url(images/stats.png);
+    align-self: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    font-size: 200%;
+    text-indent: -9999999px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    
+}
+.hardmode{
+    font-family: 'nascar';
+    margin: 10px;
+    font-size: 150%;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+
+    width: 65px;
+    height: 65px;
+    border: 3px solid rgb(255, 0, 0);
+    color: rgb(255,0,0);
+
+    display: flex;
+    
+    
+    
+}
+.easymode{
+    font-family: 'nascar';
+    margin: 10px;
+    font-size: 150%;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+
+    width: 65px;
+    height: 65px;
+    border: 3px solid green;
+    color: green;
+
+    display: flex;
+}
+
+.title{
+    text-align: center;
+}
+
+
+.stewart{
+    font-family: 'nascar';
+    margin: 0   0   10px   0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 75px 75px 75px 75px 75px 75px;
+  grid-template-rows: 75px 75px 75px 75px 75px 75px;
+  place-items: center;
+  height: 10px;
+
+  
+}
+.container div {
+    width: 65px;
+    height: 65px;
+    border: 3px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    white-space: normal;   /* allow multiple lines */
+    word-break:normal;
+    overflow-wrap: break-word;
+}
+.container div {
+    font-size: clamp(10px, 2vw, 18px);
+}
+
+
+
+.helpboard{
+    font-family: 'nascar';
+    background-color: rgb(65, 70, 70);
+    
+    height: 625px;
+    width: 450px;
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 50px auto;   
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.game2test{
+    font-family: 'nascar';
+    background-color: rgb(65, 70, 70);
+    
+
+    position: relative;
+
+}
+.containertest {
+  display: grid;
+  grid-template-columns: 75px ;
+  grid-template-rows: 75px 75px 75px 75px 75px 75px;
+  place-items: center;
+  height: 10px;
+
+  
+}
+.containertest div {
+    width: 65px;
+    height: 65px;
+    border: 3px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    white-space: normal;   /* allow multiple lines */
+    word-break:normal;
+    overflow-wrap: break-word;
+}
+.containertest div {
+    font-size: clamp(10px, 2vw, 18px);
+}
+
+
+@media screen and (max-width: 1060px){
+    
+
+
+}

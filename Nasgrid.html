@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Nasgrid</title>
+        <link rel= "stylesheet" href= "styles.css">
+        <link rel= "stylesheet" href= "driver.css">
+
+    </head>
+    <body>
+        <main>
+        <header class = "desktop">
+            <nav>   
+                <ul>
+                    <li class = "logo"><a href="index.html">Aidan Logo</a></li>
+                    <li class = headwall><a href="The wall.html">The Wall</a></li>
+                    <li class = headdriv><a href="Nasgrid.html">Nasgrid</a></li>
+                    <li class = headhilo><a href="hilo.html">Higher Lower</a></li>
+                    <!--<li class = test><a href="test page.html">test page</a></li>-->
+                </ul>
+
+            </nav>
+            
+
+        </header>
+        <header class = "mobile">
+            <nav>   
+                <ul>
+                    <li class = "logo"><a href="index.html">Aidan Logo</a></li>
+                    <li class = headwall><a href="The wall.html">The Wall</a></li>
+                    <li class = headdriv><a href="Nasgrid.html">Nasgrid</a></li>
+                    <li class = headhilo><a href="hilo.html">Higher Lower</a></li>
+                    
+                    
+                </ul>
+            </nav>
+
+        </header>
+        <section class="navbar">
+            <h1 class="title">Nasgrid</h1>
+            <a class="hardmode" href="Nasgridhard.html">Hard Mode</a>
+            <div class="question" id="question"> How to Play</div>
+            <div class="stats_button" id="stats_button"> stats</div>
+            
+        
+        </section>
+        
+
+
+        
+        
+        <section class="please">
+            <div class="game2">
+                <input type="text" 
+                    name="driverguess" 
+                    id="driverguess"
+                    list="drivers-list"
+                    placeholder="Enter Driver here...">
+                    <datalist id="drivers-list"></datalist>
+                <div class="container">
+                    <h1 class="toprow">Driver</h1>
+                    <h1 class="toprow">Starts</h1>
+                    <h1 class="toprow">Wins</h1>
+                    <h1 class="toprow">Team</h1>
+                    <h1 class="toprow">Car Number</h1>
+                    <h1 class="toprow">Rookie Year</h1>
+
+                    <div><h1 class="guess">1</h1></div>
+                    <div><h1 class="starts">2</h1></div>
+                    <div><h1 class="wins">3</h1></div>
+                    <div><h1 class="team">4</h1></div>
+                    <div><h1 class="carnum">5</h1></div>
+                    <div><h1 class="rokyear">6</h1></div>
+                    
+
+                    <div><h1 class="guess">1</h1></div>
+                    <div><h1 class="starts">2</h1></div>
+                    <div><h1 class="wins">3</h1></div>
+                    <div><h1 class="team">4</h1></div>
+                    <div><h1 class="carnum">5</h1></div>
+                    <div><h1 class="rokyear">6</h1></div>
+
+                    <div><h1 class="guess">1</h1></div>
+                    <div><h1 class="starts">2</h1></div>
+                    <div><h1 class="wins">3</h1></div>
+                    <div><h1 class="team">4</h1></div>
+                    <div><h1 class="carnum">5</h1></div>
+                    <div><h1 class="rokyear">6</h1></div>
+
+                    <div><h1 class="guess">1</h1></div>
+                    <div><h1 class="starts">2</h1></div>
+                    <div><h1 class="wins">3</h1></div>
+                    <div><h1 class="team">4</h1></div>
+                    <div><h1 class="carnum">5</h1></div>
+                    <div><h1 class="rokyear">6</h1></div>
+
+                    <div><h1 class="guess">1</h1></div>
+                    <div><h1 class="starts">2</h1></div>
+                    <div><h1 class="wins">3</h1></div>
+                    <div><h1 class="team">4</h1></div>
+                    <div><h1 class="carnum">5</h1></div>
+                    <div><h1 class="rokyear">6</h1></div>
+
+                    <div><h1 class="guess">1</h1></div>
+                    <div><h1 class="starts">2</h1></div>
+                    <div><h1 class="wins">3</h1></div>
+                    <div><h1 class="team">4</h1></div>
+                    <div><h1 class="carnum">5</h1></div>
+                    <div><h1 class="rokyear">6</h1></div>
+                </div>
+
+                
+                
+                
+
+
+            </div>
+                
+
+
+        </section>
+        <div id="overlay">
+            <div>
+                <div  class="helpboard"> 
+                    <div class="game2test">
+
+                        <h1 class="title">How To Play</h1>
+                        <div class="helptext">
+                            Guess the driver of the day in 6 tries. 
+                            Numbers provided are based off their most recent start.
+                            Currently includes every driver to acheive their best finish since 2015. 
+                            I will continue adding more.
+                            Hard mode Features every driver since 2015 with a single start as a possible answer.
+                            Easy mode features drivers who are more notable and recognizible.
+
+                        </div>
+                        <h1 class="title">The Colors and what they mean</h1>
+                        <div class="row">
+                            <div class="square">Michael McDowell</div>
+                            <div class="text">Gray means incorrect</div>
+                        </div>
+                        <div class="row">
+                            <div class="square bluesquare">548</div>
+                            <div class="text">blue means the driver of the day <br>has a 
+                                lower number in this stat</div>
+                        </div>
+                        <div class="row">
+                            <div class="square orangesquare">2</div>
+                            <div class="text">orange means the driver of the day <br>has a 
+                                higher number in this stat</div>
+                        </div>
+                        <div class="row">
+                            <div class="square yellowsquare">spire</div>
+                            <div class="text">yellow means they used to race for 
+                                <br>this team or used to use this number</div>
+                        </div>
+                        <div class="row">
+                            <div class="square greensquare">71</div>
+                            <div class="text">Green means correct</div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            
+            </div>
+
+        </div>
+
+
+
+
+        <div id="overlay2" class="">
+            <div  class="statsboard"> 
+                <div id="stats" class="stats">Stats</div>
+                <div id="plays" class="plays">played</div>
+                <div id="wons" class="wons">wins</div>
+                <div id="lost" class="lost">losses</div>
+                <div id="streak" class="streak">streak</div>
+                <div id="maxstreak" class="maxstreak">Longest streak</div>
+                <div id="textejnogrirenaj">Previous scores</div>
+
+                <div class="row">
+                    <div class="statsquare">1</div>
+
+                    <div class="bar">
+                        <div id="1guess" class="barfill">0</div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="statsquare ">2</div>
+                    <div class="bar">
+                        <div id="2guess" class="barfill">0</div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="statsquare ">3</div>
+                    <div class="bar">
+                        <div id="3guess" class="barfill">0</div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="statsquare ">4</div>
+                    <div class="bar">
+                        <div id="4guess" class="barfill">0</div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="statsquare ">5</div>
+                    <div class="bar">
+                        <div id="5guess" class="barfill">0</div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="statsquare ">6</div>
+                    <div class="bar">
+                        <div id="6guess" class="barfill">0</div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+        
+        
+    
+        
+        </main>
+         
+        
+        <section class="stewart please">
+            Inspired by&nbsp; <a href="https://stewardle.com/" target="_blank" rel="noopener noreferrer"> Stewardle </a>
+        </section>
+        
+        <footer >
+            If you notice anything wrong with stats please message me on twitter @chardab88
+        </footer>
+        
+
+        <script src="Nasgrid.js"></script>
+    </body>
+
+
+    
+
+    
+    
+
+
+    
+
+
+
+    
+    
+</html>
+
+

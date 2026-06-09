@@ -1,0 +1,38 @@
+[
+    {
+    "name": "Alex Bowman",
+    "starts": 371,
+    "wins": 8,
+    "dnfs": 47,
+    "dnqs": 1,
+    "top 10s": 114,
+    "top 5s": 48,
+    "poles": 7,
+    "laps lead": 1533,
+    "img": "alex bowman.png"
+  },
+  {
+    "name": "Michael McDowell",
+    "starts": 551,
+    "wins": 2,
+    "dnfs": 154,
+    "dnqs": 24,
+    "top 10s": 53,
+    "top 5s": 16,
+    "poles": 8,
+    "laps lead": 654,
+    "img": "michael mcdowell.png"
+  },
+  {
+    "name": "Kyle Busch",
+    "starts": 762,
+    "wins": 63,
+    "dnfs": 86,
+    "dnqs": 3,
+    "top 10s": 394,
+    "top 5s": 254,
+    "poles": 35,
+    "laps lead": 19486,
+    "img": "kyle busch.png"
+  }
+]

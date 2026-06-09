@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'nascar';
+    src: url(fonts/BERTHOLD\ AKZIDENZ\ GROTESK\ BE\ EXTRA\ BOLD\ CONDENSED.TTF);
+}
+.title{
+    font-family: 'nascar';
+}
+.title{
+    text-align: center;
+}
+body{    
+    background-color: rgb(42, 164, 177); 
+    background-image: url("images/background\ image.png");    
+    background-size: 100%;   
+    background-repeat: no-repeat;
+    
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+            
+header{
+    background-color: rgb(123, 123, 123);
+    display: inline-block;
+    height: 75px;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+header section h1{
+    position: relative;
+    top: -80px;
+}
+header .logo a{
+    
+    background-image: url("images/blade guy.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 65px;
+    text-indent: -99999998px;
+    width: 40px;
+    position: relative;
+    top:-5px;
+    margin: 0px 30px 0px 0px;
+}
+.introtext{
+    background: gray;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-size: clamp(15px, 2vw, 28px);
+    
+
+}
+.indexsect{
+    min-height: 75px;
+}
+.mobile{
+    display: none;
+}
+.title{
+    margin: 25px 25px;
+    text-align: left;
+    
+}
+header nav ul li a {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+header nav ul li a:hover {
+    transform: scale(1.05);
+}
+header .headwall a{
+    background-image: url("images/wall_button.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    text-indent: -99999998px;
+    width: 125px;
+    position: relative;
+    top: -7.5px;
+    margin: 0px 30px 30px 0px;
+}
+header .headdriv a{
+    background-image: url("images/Nasgridbutton.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    text-indent: -99999998px;
+    width: 125px;
+    position: relative;
+    top:-7.5px;
+    margin: 0px 30px 30px 0px;
+}
+header .headhilo a{
+    background-image: url("images/higherlower\ button.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    text-indent: -99999998px;
+    width: 125px;
+    position: relative;
+    top:-7.5px;
+    margin: 0px 30px 30px 0px;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+li{
+    display: inline-block;
+    
+}
+
+
+.desktop {
+    display: none;
+}
+.mobile{
+    display: inline-block;
+}
+
+
+/* main page only */
+
+.section-2{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-2 a{
+    
+    background-color: rgb(42, 164, 177);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    font-size: 200%;
+    text-indent: -9999999px;
+    width: 350px;
+    height: 174px;
+    
+
+}
+.wall_button{
+    background-image: url("images/wall_button.png");
+}
+.Nasgridbutton{
+    background-image: url("images/Nasgridbutton.png");
+}
+.hilobutton{
+    background-image: url("images/higherlower\ button.png");
+}
+footer{
+    background-color: black;
+    height:20px;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 600px) {
+   header .headwall a{
+    background-image: url("images/wall_button.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 56px;
+    text-indent: -99999998px;
+    width: 88px;
+    position: relative;
+    top: -7.5px;
+    margin: 0px 30px 30px 0px;
+}
+header .headdriv a{
+    background-image: url("images/Nasgridbutton.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 56px;
+    text-indent: -99999998px;
+    width: 88px;
+    position: relative;
+    top:-7.5px;
+    margin: 0px 30px 30px 0px;
+}
+header .headhilo a{
+    background-image: url("images/higherlower\ button.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 56px;
+    text-indent: -99999998px;
+    width: 88px;
+    position: relative;
+    top:-7.5px;
+    margin: 0px 30px 30px 0px;
+}
+header .logo a{
+    
+    background-image: url("images/blade guy.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 46px;
+    text-indent: -99999998px;
+    width: 28px;
+    position: relative;
+    top:-5px;
+    margin: 0px 30px 0px 0px;
+}
+}
