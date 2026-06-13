@@ -1,7 +1,5 @@
 const input = document.getElementById("driverguess");
 const guesses = document.querySelectorAll(".guess");
-const reset = document.getElementById("reset");
-const resetstats = document.getElementById("resetstats");
 const stats_button = document.getElementById("stats_button");
 const question = document.getElementById("question");
 const starts = document.querySelectorAll(".starts");
@@ -454,46 +452,8 @@ input.addEventListener("keydown", function(event) {
 
 
 
-reset.addEventListener("click", function() {
-    localStorage.removeItem(DAILY_KEY);
-    location.reload();
-    currentGuess = 0;  
 
-    input.disabled = false;
-    input.placeholder = "Enter Driver here...";
-    input.value = "";
 
-    // clear all guesses (UI only)
-    for (let i = 0; i < guesses.length; i++) {
-        guesses[i].textContent = "";
-        guesses[i].style.visibility = "hidden";
-        starts[i].style.visibility = "hidden";
-        wins[i].style.visibility = "hidden";
-        team[i].style.visibility = "hidden";
-        carnum[i].style.visibility = "hidden";
-        rokyear[i].style.visibility = "hidden";
-
-        guesses[i].parentElement.style.backgroundColor = "";
-        starts[i].parentElement.style.backgroundColor = "";
-        wins[i].parentElement.style.backgroundColor = "";
-        team[i].parentElement.style.backgroundColor = "";
-        carnum[i].parentElement.style.backgroundColor = "";
-        rokyear[i].parentElement.style.backgroundColor = "";
-        team[i].innerHTML = "";
-    }
-    saveDailyProgress();
-});
-resetstats.addEventListener("click", function() {
-    plays = 0;
-    lost = 0;
-    streak = 0;
-    maxstreak = 0;
-    wons = 0;
-    guessestrack = [0, 0, 0, 0, 0, 0];
-
-    localStorage.removeItem(STORAGE_KEY); 
-    update();
-});
 
     
 question.addEventListener("click", () => {

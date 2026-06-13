@@ -89,7 +89,7 @@ header .headwall a{
     margin: 0px 30px 30px 0px;
 }
 header .headdriv a{
-    background-image: url("images/Nasgridbutton.png");
+    background-image: url("images/NASGRIDBUTTON.png");
     background-size:100%;
     background-repeat: no-repeat;
     display: inline-block;
@@ -156,7 +156,7 @@ li{
     background-image: url("images/wall_button.png");
 }
 .Nasgridbutton{
-    background-image: url("images/Nasgridbutton.png");
+    background-image: url("images/NASGRIDBUTTON.png");
 }
 .hilobutton{
     background-image: url("images/higherlower\ button.png");
