@@ -6,18 +6,28 @@
     "team": "Joe Gibbs Racing",
     "carnum": 11,
     "rokyear": 2005,
-    "forcarnum": [11],
-    "formteam": ["Joe Gibbs Racing"]
+    "forcarnum": [
+      11
+    ],
+    "formteam": [
+      "Joe Gibbs Racing"
+    ]
   },
   {
     "name": "Chase Elliott",
     "starts": 373,
-    "wins": 23,
+    "wins": 24,
     "team": "Hendrick Motorsports",
-    "carnum": 9,
+    "carnum": 12,
     "rokyear": 2015,
-    "forcarnum": [9, 24, 25],
-    "formteam": ["Hendrick Motorsports"]
+    "forcarnum": [
+      9,
+      24,
+      25
+    ],
+    "formteam": [
+      "Hendrick Motorsports"
+    ]
   },
   {
     "name": "Ryan Blaney",
@@ -26,8 +36,14 @@
     "team": "Penske",
     "carnum": 12,
     "rokyear": 2014,
-    "forcarnum": [12, 21],
-    "formteam": ["Penske", "Wood Bros"]
+    "forcarnum": [
+      12,
+      21
+    ],
+    "formteam": [
+      "Penske",
+      "Wood Bros"
+    ]
   },
   {
     "name": "Tyler Reddick",
@@ -36,8 +52,15 @@
     "team": "23XI Racing",
     "carnum": 45,
     "rokyear": 2019,
-    "forcarnum": [45, 31, 8],
-    "formteam": ["23XI Racing", "Richard Childress Racing"]
+    "forcarnum": [
+      45,
+      31,
+      8
+    ],
+    "formteam": [
+      "23XI Racing",
+      "Richard Childress Racing"
+    ]
   },
   {
     "name": "Ty Gibbs",
@@ -46,8 +69,15 @@
     "team": "Joe Gibbs Racing",
     "carnum": 54,
     "rokyear": 2022,
-    "forcarnum": [54, 45, 23],
-    "formteam": ["Joe Gibbs Racing", "23XI Racing"]
+    "forcarnum": [
+      54,
+      45,
+      23
+    ],
+    "formteam": [
+      "Joe Gibbs Racing",
+      "23XI Racing"
+    ]
   },
   {
     "name": "Riley Herbst",
@@ -56,8 +86,16 @@
     "team": "23XI Racing",
     "carnum": 35,
     "rokyear": 2023,
-    "forcarnum": [35, 15, 36],
-    "formteam": ["23XI Racing", "Front Row Motorsports", "Rick Ware Racing"]
+    "forcarnum": [
+      35,
+      15,
+      36
+    ],
+    "formteam": [
+      "23XI Racing",
+      "Front Row Motorsports",
+      "Rick Ware Racing"
+    ]
   },
   {
     "name": "Joey Logano",
@@ -66,8 +104,16 @@
     "team": "Penske",
     "carnum": 22,
     "rokyear": 2008,
-    "forcarnum": [20, 22, 12, 102],
-    "formteam": ["Joe Gibbs Racing", "Penske"]
+    "forcarnum": [
+      20,
+      22,
+      12,
+      102
+    ],
+    "formteam": [
+      "Joe Gibbs Racing",
+      "Penske"
+    ]
   },
   {
     "name": "Kyle Larson",
@@ -76,8 +122,16 @@
     "team": "Hendrick Motorsports",
     "carnum": 5,
     "rokyear": 2013,
-    "forcarnum": [42, 5,51],
-    "formteam": ["Chip Ganassi Racing", "Hendrick Motorsports","Hscott Motorsports"]
+    "forcarnum": [
+      42,
+      5,
+      51
+    ],
+    "formteam": [
+      "Chip Ganassi Racing",
+      "Hendrick Motorsports",
+      "Hscott Motorsports"
+    ]
   },
   {
     "name": "William Byron",
@@ -86,8 +140,12 @@
     "team": "Hendrick Motorsports",
     "carnum": 24,
     "rokyear": 2018,
-    "forcarnum": [24],
-    "formteam": ["Hendrick Motorsports"]
+    "forcarnum": [
+      24
+    ],
+    "formteam": [
+      "Hendrick Motorsports"
+    ]
   },
   {
     "name": "Christopher Bell",
@@ -96,8 +154,14 @@
     "team": "Joe Gibbs Racing",
     "carnum": 20,
     "rokyear": 2020,
-    "forcarnum": [95, 20],
-    "formteam": ["Leavine Family Racing", "Joe Gibbs Racing"]
+    "forcarnum": [
+      95,
+      20
+    ],
+    "formteam": [
+      "Leavine Family Racing",
+      "Joe Gibbs Racing"
+    ]
   },
   {
     "name": "Ross Chastain",
@@ -106,9 +170,22 @@
     "team": "Trackhouse Racing",
     "carnum": 1,
     "rokyear": 2017,
-    "forcarnum": [42, 1,15,77,6,27,7],
-    "formteam": ["Chip Ganassi Racing", "Trackhouse Racing","Spire Motorsports"
-    ,"Premium Motorsports", "Roush Fenway Racing"]
+    "forcarnum": [
+      42,
+      1,
+      15,
+      77,
+      6,
+      27,
+      7
+    ],
+    "formteam": [
+      "Chip Ganassi Racing",
+      "Trackhouse Racing",
+      "Spire Motorsports",
+      "Premium Motorsports",
+      "Roush Fenway Racing"
+    ]
   },
   {
     "name": "Austin Dillon",
@@ -117,19 +194,39 @@
     "team": "Richard Childress Racing",
     "carnum": 3,
     "rokyear": 2011,
-    "forcarnum": [33, 3,98,51,14],
-    "formteam": ["Richard Childress Racing","Curb Agajanian Motorsports",
-    "Phoenix Racing","Circle Sport","Stewart Haas Racing"]
+    "forcarnum": [
+      33,
+      3,
+      98,
+      51,
+      14
+    ],
+    "formteam": [
+      "Richard Childress Racing",
+      "Curb Agajanian Motorsports",
+      "Phoenix Racing",
+      "Circle Sport",
+      "Stewart Haas Racing"
+    ]
   },
   {
     "name": "Shane Van Gisbergen",
-    "starts": 64,
+    "starts": 65,
     "wins": 7,
     "team": "Trackhouse Racing",
     "carnum": 97,
     "rokyear": 2023,
-    "forcarnum": [91,88,16,13,97],
-    "formteam": ["Trackhouse Racing","Kaulig Racing"]
+    "forcarnum": [
+      91,
+      88,
+      16,
+      13,
+      97
+    ],
+    "formteam": [
+      "Trackhouse Racing",
+      "Kaulig Racing"
+    ]
   },
   {
     "name": "Chase Briscoe",
@@ -138,8 +235,14 @@
     "team": "Joe Gibbs Racing",
     "carnum": 19,
     "rokyear": 2021,
-    "forcarnum": [14, 19],
-    "formteam": ["Stewart Haas Racing", "Joe Gibbs Racing"]
+    "forcarnum": [
+      14,
+      19
+    ],
+    "formteam": [
+      "Stewart Haas Racing",
+      "Joe Gibbs Racing"
+    ]
   },
   {
     "name": "Austin Cindric",
@@ -148,8 +251,13 @@
     "team": "Penske",
     "carnum": 2,
     "rokyear": 2021,
-    "forcarnum": [33, 2],
-    "formteam": ["Penske"]
+    "forcarnum": [
+      33,
+      2
+    ],
+    "formteam": [
+      "Penske"
+    ]
   },
   {
     "name": "Bubba Wallace",
@@ -158,8 +266,15 @@
     "team": "23XI Racing",
     "carnum": 23,
     "rokyear": 2017,
-    "forcarnum": [43, 23, 45],
-    "formteam": ["Richard Petty Motorsports", "23XI Racing"]
+    "forcarnum": [
+      43,
+      23,
+      45
+    ],
+    "formteam": [
+      "Richard Petty Motorsports",
+      "23XI Racing"
+    ]
   },
   {
     "name": "Josh Berry",
@@ -168,8 +283,21 @@
     "team": "Wood Bros",
     "carnum": 21,
     "rokyear": 2021,
-    "forcarnum": [21, 4,7,77,48,9,42],
-    "formteam": ["Stewart Haas Racing","Legacy Motor Club","Hendrick Motorsports","Spire Motorsports"]
+    "forcarnum": [
+      21,
+      4,
+      7,
+      77,
+      48,
+      9,
+      42
+    ],
+    "formteam": [
+      "Stewart Haas Racing",
+      "Legacy Motor Club",
+      "Hendrick Motorsports",
+      "Spire Motorsports"
+    ]
   },
   {
     "name": "Todd Gilliland",
@@ -178,8 +306,17 @@
     "team": "Front Row Motorsports",
     "carnum": 34,
     "rokyear": 2022,
-    "forcarnum": [38,34,51,15,36],
-    "formteam": ["Front Row Motorsports","Rick Ware Racing"]
+    "forcarnum": [
+      38,
+      34,
+      51,
+      15,
+      36
+    ],
+    "formteam": [
+      "Front Row Motorsports",
+      "Rick Ware Racing"
+    ]
   },
   {
     "name": "Carson Hocevar",
@@ -188,8 +325,15 @@
     "team": "Spire Motorsports",
     "carnum": 77,
     "rokyear": 2023,
-    "forcarnum": [77,42,7],
-    "formteam": ["Spire Motorsports","Legacy Motor Club"]
+    "forcarnum": [
+      77,
+      42,
+      7
+    ],
+    "formteam": [
+      "Spire Motorsports",
+      "Legacy Motor Club"
+    ]
   },
   {
     "name": "Ryan Preece",
@@ -198,9 +342,22 @@
     "team": "Roush Fenway Keselowski",
     "carnum": 60,
     "rokyear": 2015,
-    "forcarnum": [37, 41,60,47,98,15],
-    "formteam": ["JTG Daugherty Racing", "RFK Racing","Rick Ware Racing","Stewart Haas Racing",
-    "Roush Fenway Keselowski","Premium Motorsports"]
+    "forcarnum": [
+      37,
+      41,
+      60,
+      47,
+      98,
+      15
+    ],
+    "formteam": [
+      "JTG Daugherty Racing",
+      "RFK Racing",
+      "Rick Ware Racing",
+      "Stewart Haas Racing",
+      "Roush Fenway Keselowski",
+      "Premium Motorsports"
+    ]
   },
   {
     "name": "John Hunter Nemechek",
@@ -209,8 +366,17 @@
     "team": "Legacy Motor Club",
     "carnum": 42,
     "rokyear": 2019,
-    "forcarnum": [38, 42,36,45],
-    "formteam": ["Front Row Motorsports", "Legacy Motor Club","23XI Racing"]
+    "forcarnum": [
+      38,
+      42,
+      36,
+      45
+    ],
+    "formteam": [
+      "Front Row Motorsports",
+      "Legacy Motor Club",
+      "23XI Racing"
+    ]
   },
   {
     "name": "Connor Zilisch",
@@ -219,8 +385,13 @@
     "team": "Trackhouse Racing",
     "carnum": 88,
     "rokyear": 2025,
-    "forcarnum": [87,88],
-    "formteam": ["Trackhouse Racing"]
+    "forcarnum": [
+      87,
+      88
+    ],
+    "formteam": [
+      "Trackhouse Racing"
+    ]
   },
   {
     "name": "Alex Bowman",
@@ -229,8 +400,17 @@
     "team": "Hendrick Motorsports",
     "carnum": 48,
     "rokyear": 2014,
-    "forcarnum": [88, 48,23,7],
-    "formteam": ["Hendrick Motorsports", "BK Racing","Tommy Baldwin Racing"]
+    "forcarnum": [
+      88,
+      48,
+      23,
+      7
+    ],
+    "formteam": [
+      "Hendrick Motorsports",
+      "BK Racing",
+      "Tommy Baldwin Racing"
+    ]
   },
   {
     "name": "Chris Buescher",
@@ -239,8 +419,16 @@
     "team": "Roush Fenway Keselowski",
     "carnum": 17,
     "rokyear": 2015,
-    "forcarnum": [34, 37, 17],
-    "formteam": ["JTG Daugherty Racing", "Roush Fenway Keselowski","Front Row Motorsports"]
+    "forcarnum": [
+      34,
+      37,
+      17
+    ],
+    "formteam": [
+      "JTG Daugherty Racing",
+      "Roush Fenway Keselowski",
+      "Front Row Motorsports"
+    ]
   },
   {
     "name": "Ricky Stenhouse Jr",
@@ -249,8 +437,17 @@
     "team": "Hyak Motorsports",
     "carnum": 47,
     "rokyear": 2011,
-    "forcarnum": [17, 47,21,6],
-    "formteam": ["Roush Fenway Racing", "JTG Daugherty Racing","Wood Bros"]
+    "forcarnum": [
+      17,
+      47,
+      21,
+      6
+    ],
+    "formteam": [
+      "Roush Fenway Racing",
+      "JTG Daugherty Racing",
+      "Wood Bros"
+    ]
   },
   {
     "name": "Daniel Suarez",
@@ -259,11 +456,21 @@
     "team": "Spire Motorsports",
     "carnum": 7,
     "rokyear": 2017,
-    "forcarnum": [19, 41, 99,96,7],
-    "formteam": ["Joe Gibbs Racing", "Stewart Haas Racing", "Trackhouse Racing",
-    "Spire Motorsports","Gaunt Brothers Racing"]
+    "forcarnum": [
+      19,
+      41,
+      99,
+      96,
+      7
+    ],
+    "formteam": [
+      "Joe Gibbs Racing",
+      "Stewart Haas Racing",
+      "Trackhouse Racing",
+      "Spire Motorsports",
+      "Gaunt Brothers Racing"
+    ]
   },
-
   {
     "name": "Zane Smith",
     "starts": 96,
@@ -271,8 +478,19 @@
     "team": "Front Row Motorsports",
     "carnum": 38,
     "rokyear": 2022,
-    "forcarnum": [38, 71,51,17,36],
-    "formteam": ["Front Row Motorsports", "Trackhouse Racing","Rick Ware Racing","Roush Fenway Keselowski"]
+    "forcarnum": [
+      38,
+      71,
+      51,
+      17,
+      36
+    ],
+    "formteam": [
+      "Front Row Motorsports",
+      "Trackhouse Racing",
+      "Rick Ware Racing",
+      "Roush Fenway Keselowski"
+    ]
   },
   {
     "name": "Noah Gragson",
@@ -281,9 +499,22 @@
     "team": "Front Row Motorsports",
     "carnum": 4,
     "rokyear": 2022,
-    "forcarnum": [16, 42, 10,4,48,62],
-    "formteam": ["Hendrick Motorsports", "Stewart Haas Racing", "Front Row Motorsports",
-    "Beard Motorsports","Kaulig Racing","Legacy Motor Club"]
+    "forcarnum": [
+      16,
+      42,
+      10,
+      4,
+      48,
+      62
+    ],
+    "formteam": [
+      "Hendrick Motorsports",
+      "Stewart Haas Racing",
+      "Front Row Motorsports",
+      "Beard Motorsports",
+      "Kaulig Racing",
+      "Legacy Motor Club"
+    ]
   },
   {
     "name": "Cody Ware",
@@ -292,8 +523,16 @@
     "team": "Rick Ware Racing",
     "carnum": 51,
     "rokyear": 2017,
-    "forcarnum": [51,15,52,53,27],
-    "formteam": ["Rick Ware Racing"]
+    "forcarnum": [
+      51,
+      15,
+      52,
+      53,
+      27
+    ],
+    "formteam": [
+      "Rick Ware Racing"
+    ]
   },
   {
     "name": "Cole Custer",
@@ -302,40 +541,100 @@
     "team": "Haas Factory Team",
     "carnum": 41,
     "rokyear": 2018,
-    "forcarnum": [41,51],
-    "formteam": ["Haas Factory Team","Stewart Haas Racing","Rick Ware Racing"]
+    "forcarnum": [
+      41,
+      51
+    ],
+    "formteam": [
+      "Haas Factory Team",
+      "Stewart Haas Racing",
+      "Rick Ware Racing"
+    ]
   },
-   {
+  {
     "name": "Erik jones",
     "starts": 340,
     "wins": 3,
     "team": "Legacy Motor Club",
     "carnum": 43,
     "rokyear": 2015,
-    "forcarnum": [43,20,77,18],
-    "formteam": ["Furniture Row Racing","Joe Gibbs Racing","Legacy Motor Club"]
+    "forcarnum": [
+      43,
+      20,
+      77,
+      18
+    ],
+    "formteam": [
+      "Furniture Row Racing",
+      "Joe Gibbs Racing",
+      "Legacy Motor Club"
+    ]
   },
-    {
+  {
     "name": "Michael McDowell",
     "starts": 552,
     "wins": 2,
     "team": "Spire Motorsports",
     "carnum": 71,
     "rokyear": 2008,
-    "forcarnum": [34,95,98,71,66,55,36,46,59,18,35,51],
-    "formteam": ["Spire Motorsports","Leavine Family Racing","Phil Parsons Racing","Front Row Motorsports",
-    "Joe Gibbs Racing","Prism","Whitney","HP Racing","Michael Waltrip Racing","Tommy Baldwin Racing"]
+    "forcarnum": [
+      34,
+      95,
+      98,
+      71,
+      66,
+      55,
+      36,
+      46,
+      59,
+      18,
+      35,
+      51
+    ],
+    "formteam": [
+      "Spire Motorsports",
+      "Leavine Family Racing",
+      "Phil Parsons Racing",
+      "Front Row Motorsports",
+      "Joe Gibbs Racing",
+      "Prism",
+      "Whitney",
+      "HP Racing",
+      "Michael Waltrip Racing",
+      "Tommy Baldwin Racing"
+    ]
   },
-   {
+  {
     "name": "Ty Dillon",
     "starts": 295,
     "wins": 0,
     "team": "Kaulig Racing",
     "carnum": 10,
     "rokyear": 2014,
-    "forcarnum": [10,13,77,42,33,95,16,96,14,7,50],
-    "formteam": ["Kaulig Racing","Team Amerivet","Richard Childress Racing","Gaunt Brothers Racing","Germain Racing",
-    "Leavine Family Racing","Stewart Haas Racing","Tommy Baldwin Racing","Circle Sport"]
+    "forcarnum": [
+      10,
+      13,
+      77,
+      42,
+      33,
+      95,
+      16,
+      96,
+      14,
+      7,
+      50
+    ],
+    "formteam": [
+      "Kaulig Racing",
+      "Team Amerivet",
+      "Richard Childress Racing",
+      "Gaunt Brothers Racing",
+      "Germain Racing",
+      "Leavine Family Racing",
+      "Stewart Haas Racing",
+      "Tommy Baldwin Racing",
+      "Circle Sport"
+    ]
   },
   {
     "name": "AJ Allmendinger",
@@ -344,9 +643,26 @@
     "team": "Kaulig Racing",
     "carnum": 16,
     "rokyear": 2007,
-    "forcarnum": [47,16,43,84,44,22,51,10,13],
-    "formteam": ["JTG Daugherty Racing","Red Bull Racing","Michael Waltrip Racing",
-    "Penske","Richard Petty Motorsports","Kaulig Racing","Phoenix Racing"]
+    "forcarnum": [
+      47,
+      16,
+      43,
+      84,
+      44,
+      22,
+      51,
+      10,
+      13
+    ],
+    "formteam": [
+      "JTG Daugherty Racing",
+      "Red Bull Racing",
+      "Michael Waltrip Racing",
+      "Penske",
+      "Richard Petty Motorsports",
+      "Kaulig Racing",
+      "Phoenix Racing"
+    ]
   },
   {
     "name": "Brad Keselowski",
@@ -355,17 +671,20 @@
     "team": "Roush Fenway Keselowski",
     "carnum": 6,
     "rokyear": 2008,
-    "forcarnum": [2,6,12,25,109],
-    "formteam": ["Hendrick Motorsports","Penske","Roush Fenway Keselowski","Phoenix Racing"]
+    "forcarnum": [
+      2,
+      6,
+      12,
+      25,
+      109
+    ],
+    "formteam": [
+      "Hendrick Motorsports",
+      "Penske",
+      "Roush Fenway Keselowski",
+      "Phoenix Racing"
+    ]
   },
-
-
-
-
-
-
-
-
   {
     "name": "Kyle Busch",
     "starts": 762,
@@ -373,8 +692,17 @@
     "team": "Richard Childress Racing",
     "carnum": 8,
     "rokyear": 2004,
-    "forcarnum": [18,8,5,84],
-    "formteam": ["Richard Childress Racing","Joe Gibbs Racing","Hendrick Motorsports"]
+    "forcarnum": [
+      18,
+      8,
+      5,
+      84
+    ],
+    "formteam": [
+      "Richard Childress Racing",
+      "Joe Gibbs Racing",
+      "Hendrick Motorsports"
+    ]
   },
   {
     "name": "Corey Heim",
@@ -383,8 +711,15 @@
     "team": "23XI Racing",
     "carnum": 67,
     "rokyear": 2024,
-    "forcarnum": [67,43,50],
-    "formteam": ["23XI Racing","Legacy Motor Club"]
+    "forcarnum": [
+      67,
+      43,
+      50
+    ],
+    "formteam": [
+      "23XI Racing",
+      "Legacy Motor Club"
+    ]
   },
   {
     "name": "Austin Hill",
@@ -393,8 +728,14 @@
     "team": "Richard Childress Racing",
     "carnum": 33,
     "rokyear": 2022,
-    "forcarnum": [62, 33],
-    "formteam": ["Beard Motorsports", "Richard Childress Racing"]
+    "forcarnum": [
+      62,
+      33
+    ],
+    "formteam": [
+      "Beard Motorsports",
+      "Richard Childress Racing"
+    ]
   },
   {
     "name": "Jesse Love",
@@ -403,8 +744,14 @@
     "team": "Richard Childress Racing",
     "carnum": 33,
     "rokyear": 2025,
-    "forcarnum": [62, 33],
-    "formteam": ["Beard Motorsports", "Richard Childress Racing"]
+    "forcarnum": [
+      62,
+      33
+    ],
+    "formteam": [
+      "Beard Motorsports",
+      "Richard Childress Racing"
+    ]
   },
   {
     "name": "Harrison Burton",
@@ -413,8 +760,14 @@
     "team": "Wood Brothers Racing",
     "carnum": 21,
     "rokyear": 2021,
-    "forcarnum": [21,96],
-    "formteam": ["Wood Brothers Racing","Gaunt Brothers Racing"]
+    "forcarnum": [
+      21,
+      96
+    ],
+    "formteam": [
+      "Wood Brothers Racing",
+      "Gaunt Brothers Racing"
+    ]
   },
   {
     "name": "Corey LaJoie",
@@ -423,9 +776,24 @@
     "team": "Rick Ware Racing",
     "carnum": 101,
     "rokyear": 2014,
-    "forcarnum": [7,32,72,83,23,51,77,9],
-    "formteam": ["Go Fas Racing", "Rick Ware Racing","Spire Motorsports","BK Racing"
-    ,"TriStar Racing","Hendrick Motorsports"]
+    "forcarnum": [
+      7,
+      32,
+      72,
+      83,
+      23,
+      51,
+      77,
+      9
+    ],
+    "formteam": [
+      "Go Fas Racing",
+      "Rick Ware Racing",
+      "Spire Motorsports",
+      "BK Racing",
+      "TriStar Racing",
+      "Hendrick Motorsports"
+    ]
   },
   {
     "name": "Martin Truex Jr",
@@ -434,9 +802,19 @@
     "team": "Tricon Garage",
     "carnum": 56,
     "rokyear": 2004,
-    "forcarnum": [1,56,78,19],
-    "formteam": ["Tricon Garage","Furniture Row Racing","Michael Waltrip Racing",
-    "Dale Earnhardt Incorporated","Joe Gibbs Racing"]
+    "forcarnum": [
+      1,
+      56,
+      78,
+      19
+    ],
+    "formteam": [
+      "Tricon Garage",
+      "Furniture Row Racing",
+      "Michael Waltrip Racing",
+      "Dale Earnhardt Incorporated",
+      "Joe Gibbs Racing"
+    ]
   },
   {
     "name": "Kevin Harvick",
@@ -445,8 +823,14 @@
     "team": "Stewart Haas Racing",
     "carnum": 4,
     "rokyear": 2001,
-    "forcarnum": [4,29],
-    "formteam": ["Stewart Haas Racing","Richard Childress Racing"]
+    "forcarnum": [
+      4,
+      29
+    ],
+    "formteam": [
+      "Stewart Haas Racing",
+      "Richard Childress Racing"
+    ]
   },
   {
     "name": "Kurt Busch",
@@ -455,9 +839,25 @@
     "team": "23XI Racing",
     "carnum": 45,
     "rokyear": 2000,
-    "forcarnum": [97,2,41,1,78,22,51,45],
-    "formteam": ["23XI Racing","Furniture Row Racing","Roush Fenway Keselowski",
-    "Penske","Phoenix Racing","Stewart Haas Racing","Chip Ganassi Racing"]
+    "forcarnum": [
+      97,
+      2,
+      41,
+      1,
+      78,
+      22,
+      51,
+      45
+    ],
+    "formteam": [
+      "23XI Racing",
+      "Furniture Row Racing",
+      "Roush Fenway Keselowski",
+      "Penske",
+      "Phoenix Racing",
+      "Stewart Haas Racing",
+      "Chip Ganassi Racing"
+    ]
   },
   {
     "name": "BJ McLeod",
@@ -466,8 +866,22 @@
     "team": "Live Fast Motorsports",
     "carnum": 78,
     "rokyear": 2015,
-    "forcarnum": [78,51,52,66,53,77,33],
-    "formteam": ["Live Fast Motorsports","Spire Motorsports","Garage 66","Rick Ware Racing","Circle Sport"]
+    "forcarnum": [
+      78,
+      51,
+      52,
+      66,
+      53,
+      77,
+      33
+    ],
+    "formteam": [
+      "Live Fast Motorsports",
+      "Spire Motorsports",
+      "Garage 66",
+      "Rick Ware Racing",
+      "Circle Sport"
+    ]
   },
   {
     "name": "Aric Almirola",
@@ -476,9 +890,23 @@
     "team": "Stewart Haas Racing",
     "carnum": 10,
     "rokyear": 2007,
-    "forcarnum": [10,43,8,9,41,80,109],
-    "formteam": ["Stewart Haas Racing","Richard Petty Motorsports","Earnhardt Ganassi",
-    "Phoenix Racing","Dale Earnhardt Incorporated","Joe Gibbs Racing"]
+    "forcarnum": [
+      10,
+      43,
+      8,
+      9,
+      41,
+      80,
+      109
+    ],
+    "formteam": [
+      "Stewart Haas Racing",
+      "Richard Petty Motorsports",
+      "Earnhardt Ganassi",
+      "Phoenix Racing",
+      "Dale Earnhardt Incorporated",
+      "Joe Gibbs Racing"
+    ]
   },
   {
     "name": "Matt Dibenedetto",
@@ -487,8 +915,20 @@
     "team": "Wood Bros",
     "carnum": 21,
     "rokyear": 2015,
-    "forcarnum": [21,32,83,95,93,49],
-    "formteam": ["Leavine Family Racing","Wood Bros","Go Fas Racing","BK Racing"]
+    "forcarnum": [
+      21,
+      32,
+      83,
+      95,
+      93,
+      49
+    ],
+    "formteam": [
+      "Leavine Family Racing",
+      "Wood Bros",
+      "Go Fas Racing",
+      "BK Racing"
+    ]
   },
   {
     "name": "Justin Haley",
@@ -497,8 +937,18 @@
     "team": "Spire Motorsports",
     "carnum": 0,
     "rokyear": 2019,
-    "forcarnum": [77,31,7,51,16],
-    "formteam": ["Rick Ware Racing","Spire Motorsports","Kaulig Racing"]
+    "forcarnum": [
+      77,
+      31,
+      7,
+      51,
+      16
+    ],
+    "formteam": [
+      "Rick Ware Racing",
+      "Spire Motorsports",
+      "Kaulig Racing"
+    ]
   },
   {
     "name": "Daniel Hemric",
@@ -507,8 +957,17 @@
     "team": "Kaulig Racing",
     "carnum": 31,
     "rokyear": 2018,
-    "forcarnum": [8,31,16,23],
-    "formteam": ["Richard Childress Racing","Kaulig Racing","23XI Racing"]
+    "forcarnum": [
+      8,
+      31,
+      16,
+      23
+    ],
+    "formteam": [
+      "Richard Childress Racing",
+      "Kaulig Racing",
+      "23XI Racing"
+    ]
   },
   {
     "name": "Clint Bowyer",
@@ -517,52 +976,100 @@
     "team": "Stewart Haas Racing",
     "carnum": 14,
     "rokyear": 2005,
-    "forcarnum": [15,14,33,107],
-    "formteam": ["Stewart Haas Racing","Hscott Motorsports","Michael Waltrip Racing",
-    "Richard Childress Racing"]
+    "forcarnum": [
+      15,
+      14,
+      33,
+      107
+    ],
+    "formteam": [
+      "Stewart Haas Racing",
+      "Hscott Motorsports",
+      "Michael Waltrip Racing",
+      "Richard Childress Racing"
+    ]
   },
-   {
+  {
     "name": "Kasey Kahne",
     "starts": 529,
     "wins": 18,
     "team": "Leavine Family Racing",
     "carnum": 95,
     "rokyear": 2004,
-    "forcarnum": [95,9,5,4,83],
-    "formteam": ["Leavine Family Racing","Hendrick Motorsports","Red Bull Racing",
-    "Richard Petty Motorsports","Evernham Motorsports"]
+    "forcarnum": [
+      95,
+      9,
+      5,
+      4,
+      83
+    ],
+    "formteam": [
+      "Leavine Family Racing",
+      "Hendrick Motorsports",
+      "Red Bull Racing",
+      "Richard Petty Motorsports",
+      "Evernham Motorsports"
+    ]
   },
-   {
+  {
     "name": "Ryan Newman",
     "starts": 733,
     "wins": 18,
     "team": "Rick Ware Racing",
     "carnum": 15,
     "rokyear": 2000,
-    "forcarnum": [51,15,102,6,39,31,12],
-    "formteam": ["Rick Ware Racing","Penske",
-    "Roush Fenway Keselowski","Stewart Haas Racing"]
+    "forcarnum": [
+      51,
+      15,
+      102,
+      6,
+      39,
+      31,
+      12
+    ],
+    "formteam": [
+      "Rick Ware Racing",
+      "Penske",
+      "Roush Fenway Keselowski",
+      "Stewart Haas Racing"
+    ]
   },
-   {
+  {
     "name": "Matt Kenseth",
-    "starts": 967,
-    "wins": 37,
+    "starts": 697,
+    "wins": 39,
     "team": "Chip Ganassi Racing",
     "carnum": 42,
     "rokyear": 1998,
-    "forcarnum": [17,20,42,6,94],
-    "formteam": ["Chip Ganassi Racing","Joe Gibbs Racing",
-    "Roush Fenway Keselowski","Bill Elliott Motorsports"]
+    "forcarnum": [
+      17,
+      20,
+      42,
+      6,
+      94
+    ],
+    "formteam": [
+      "Chip Ganassi Racing",
+      "Joe Gibbs Racing",
+      "Roush Fenway Keselowski",
+      "Bill Elliott Motorsports"
+    ]
   },
-   {
+  {
     "name": "Jimmie Johnson",
     "starts": 701,
     "wins": 83,
     "team": "Legacy Motor Club",
     "carnum": 84,
     "rokyear": 2001,
-    "forcarnum": [48,84],
-    "formteam": ["Legacy Motor Club","Hendrick Motorsports"]
+    "forcarnum": [
+      48,
+      84
+    ],
+    "formteam": [
+      "Legacy Motor Club",
+      "Hendrick Motorsports"
+    ]
   },
   {
     "name": "Carl Edwards",
@@ -571,8 +1078,14 @@
     "team": "Joe Gibbs Racing",
     "carnum": 19,
     "rokyear": 2004,
-    "forcarnum": [19,99],
-    "formteam": ["Joe Gibbs Racing","Roush Fenway Keselowski"]
+    "forcarnum": [
+      19,
+      99
+    ],
+    "formteam": [
+      "Joe Gibbs Racing",
+      "Roush Fenway Keselowski"
+    ]
   },
   {
     "name": "Tony Stewart",
@@ -581,8 +1094,14 @@
     "team": "Stewart Haas Racing",
     "carnum": 14,
     "rokyear": 1999,
-    "forcarnum": [20,14],
-    "formteam": ["Stewart Haas Racing","Joe Gibbs Racing"]
+    "forcarnum": [
+      20,
+      14
+    ],
+    "formteam": [
+      "Stewart Haas Racing",
+      "Joe Gibbs Racing"
+    ]
   },
   {
     "name": "Dale Earnhardt Jr",
@@ -591,8 +1110,14 @@
     "team": "Hendrick Motorsports",
     "carnum": 88,
     "rokyear": 1999,
-    "forcarnum": [8,88],
-    "formteam": ["Hendrick Motorsports","Dale Earnhardt Incorporated"]
+    "forcarnum": [
+      8,
+      88
+    ],
+    "formteam": [
+      "Hendrick Motorsports",
+      "Dale Earnhardt Incorporated"
+    ]
   },
   {
     "name": "Jeff Gordon",
@@ -601,8 +1126,13 @@
     "team": "Hendrick Motorsports",
     "carnum": 88,
     "rokyear": 1992,
-    "forcarnum": [88,24],
-    "formteam": ["Hendrick Motorsports"]
+    "forcarnum": [
+      88,
+      24
+    ],
+    "formteam": [
+      "Hendrick Motorsports"
+    ]
   },
   {
     "name": "Justin Allgaier",
@@ -611,9 +1141,22 @@
     "team": "Hendrick Motorsports",
     "carnum": 48,
     "rokyear": 2013,
-    "forcarnum": [48,51,77,40,62,46,5],
-    "formteam": ["Hendrick Motorsports","Beard Motorsports","Hscott Motorsports",
-    "Spire Motorsports","JR Motorsports"]
+    "forcarnum": [
+      48,
+      51,
+      77,
+      40,
+      62,
+      46,
+      5
+    ],
+    "formteam": [
+      "Hendrick Motorsports",
+      "Beard Motorsports",
+      "Hscott Motorsports",
+      "Spire Motorsports",
+      "JR Motorsports"
+    ]
   },
   {
     "name": "Jamie McMurray",
@@ -622,8 +1165,19 @@
     "team": "Spire Motorsports",
     "carnum": 77,
     "rokyear": 2002,
-    "forcarnum": [1,26,42,40,77],
-    "formteam": ["Spire Motorsports","Earnhardt Ganassi","Chip Ganassi Racing","Roush Fenway Keselowski"]
+    "forcarnum": [
+      1,
+      26,
+      42,
+      40,
+      77
+    ],
+    "formteam": [
+      "Spire Motorsports",
+      "Earnhardt Ganassi",
+      "Chip Ganassi Racing",
+      "Roush Fenway Keselowski"
+    ]
   },
   {
     "name": "Greg Biffle",
@@ -632,8 +1186,16 @@
     "team": "NY Racing",
     "carnum": 44,
     "rokyear": 2002,
-    "forcarnum": [44,16,55],
-    "formteam": ["Roush Fenway Keselowski","Richard Petty Motorsports","Andy Petree Racing"]
+    "forcarnum": [
+      44,
+      16,
+      55
+    ],
+    "formteam": [
+      "Roush Fenway Keselowski",
+      "Richard Petty Motorsports",
+      "Andy Petree Racing"
+    ]
   },
   {
     "name": "Danica Patrick",
@@ -642,8 +1204,14 @@
     "team": "Premium Motorsports",
     "carnum": 7,
     "rokyear": 2012,
-    "forcarnum": [10,7],
-    "formteam": ["Premium Motorsports","Stewart Haas Racing"]
+    "forcarnum": [
+      10,
+      7
+    ],
+    "formteam": [
+      "Premium Motorsports",
+      "Stewart Haas Racing"
+    ]
   },
   {
     "name": "David Reutimann",
@@ -652,8 +1220,22 @@
     "team": "Front Row Motorsports",
     "carnum": 35,
     "rokyear": 2010,
-    "forcarnum": [10,100,83,44,35,93,51],
-    "formteam": ["Front Row Motorsports","BK Racing","Tommy Baldwin Racing","xxxtreme","Michael Waltrip Racing"]
+    "forcarnum": [
+      10,
+      100,
+      83,
+      44,
+      35,
+      93,
+      51
+    ],
+    "formteam": [
+      "Front Row Motorsports",
+      "BK Racing",
+      "Tommy Baldwin Racing",
+      "xxxtreme",
+      "Michael Waltrip Racing"
+    ]
   },
   {
     "name": "Juan Pablo Montoya",
@@ -662,8 +1244,17 @@
     "team": "23XI Racing",
     "carnum": 50,
     "rokyear": 2006,
-    "forcarnum": [50,30,12,42],
-    "formteam": ["23XI Racing","Chip Ganassi Racing","Penske"]
+    "forcarnum": [
+      50,
+      30,
+      12,
+      42
+    ],
+    "formteam": [
+      "23XI Racing",
+      "Chip Ganassi Racing",
+      "Penske"
+    ]
   },
   {
     "name": "Trevor Bayne",
@@ -672,8 +1263,14 @@
     "team": "Roush Fenway Keselowski",
     "carnum": 6,
     "rokyear": 2010,
-    "forcarnum": [6,21],
-    "formteam": ["Roush Fenway Keselowski","Wood Bros Racing"]
+    "forcarnum": [
+      6,
+      21
+    ],
+    "formteam": [
+      "Roush Fenway Keselowski",
+      "Wood Bros Racing"
+    ]
   },
   {
     "name": "Regan Smith",
@@ -682,9 +1279,29 @@
     "team": "Leavine Family Racing",
     "carnum": 95,
     "rokyear": 2007,
-    "forcarnum": [42,14,88,43,41,51,95,7,101,78],
-    "formteam": ["Chip Ganassi Racing","Stewart Haas Racing","Hendrick Motorsports","Stewart Haas Racing","Phoenix Racing","Leavine Family Racing",
-    "Tommy Baldwin Racing","Furniture Row Racing","Dale Earnhardt Incorporated"]
+    "forcarnum": [
+      42,
+      14,
+      88,
+      43,
+      41,
+      51,
+      95,
+      7,
+      101,
+      78
+    ],
+    "formteam": [
+      "Chip Ganassi Racing",
+      "Stewart Haas Racing",
+      "Hendrick Motorsports",
+      "Stewart Haas Racing",
+      "Phoenix Racing",
+      "Leavine Family Racing",
+      "Tommy Baldwin Racing",
+      "Furniture Row Racing",
+      "Dale Earnhardt Incorporated"
+    ]
   },
   {
     "name": "Paul Menard",
@@ -693,8 +1310,20 @@
     "team": "Wood Bros Racing",
     "carnum": 21,
     "rokyear": 2011,
-    "forcarnum": [21,27,15,98,1,33],
-    "formteam": ["Wood Bros Racing","Yates Racing","Dale Earnhardt Incorporated","Richard Childress Racing"]
+    "forcarnum": [
+      21,
+      27,
+      15,
+      98,
+      1,
+      33
+    ],
+    "formteam": [
+      "Wood Bros Racing",
+      "Yates Racing",
+      "Dale Earnhardt Incorporated",
+      "Richard Childress Racing"
+    ]
   },
   {
     "name": "Dave Blaney",
@@ -703,8 +1332,37 @@
     "team": "Tommy Baldwin Racing",
     "carnum": 37,
     "rokyear": 1992,
-    "forcarnum": [22,77,93,36,66,107,7,30,37,23,35,38,55,80,60,10,99],
-    "formteam": ["Randy Humphrey Motorsports","Tommy Baldwin Racing","Max Q","Germain Racing","Front Row Motorsports","Prism",
-    "Bill David Motorsports","Richard Childress Racing","Roush Fenway Keselowski","Jasper Motorsports","Stan Hover Motorsports"]
+    "forcarnum": [
+      22,
+      77,
+      93,
+      36,
+      66,
+      107,
+      7,
+      30,
+      37,
+      23,
+      35,
+      38,
+      55,
+      80,
+      60,
+      10,
+      99
+    ],
+    "formteam": [
+      "Randy Humphrey Motorsports",
+      "Tommy Baldwin Racing",
+      "Max Q",
+      "Germain Racing",
+      "Front Row Motorsports",
+      "Prism",
+      "Bill David Motorsports",
+      "Richard Childress Racing",
+      "Roush Fenway Keselowski",
+      "Jasper Motorsports",
+      "Stan Hover Motorsports"
+    ]
   }
 ]
