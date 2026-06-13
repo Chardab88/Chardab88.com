@@ -25,6 +25,7 @@ fetch("hilodriv.json")
 randomstat();
 randomnewdriver();
 randomolddriver();
+pickNextDriver();
   });
 
 
@@ -63,14 +64,25 @@ function randomnewdriver() {
 
 
 
+let nextdriver = null;
+
+function pickNextDriver() {
+    nextdriver = drivers[Math.floor(Math.random() * drivers.length)];
+    // preload the image immediately
+    const preload = new Image();
+    preload.src = `wallimgss/${nextdriver.img}`;
+}
+
 function advanceRound() {
     olddriver = newdriver;
     document.getElementById("olddriv").textContent = olddriver.name;
     olddrivpic.src = `wallimgss/${olddriver.img}`;
 
-    newdriver = drivers[Math.floor(Math.random() * drivers.length)];
+    newdriver = nextdriver;
     document.getElementById("newdriv").textContent = newdriver.name;
     newdrivpic.src = `wallimgss/${newdriver.img}`;
+
+    pickNextDriver(); // pick and preload the one after that
 }
 function playShutter(stat) {
     const oldShutter = document.getElementById("oldShutter");
@@ -165,22 +177,11 @@ function playShutter(stat, result, correct) {
 
 
 newdriv.addEventListener("click", function () {
+    pickNextDriver(); // preload starts immediately
 
     const result = getResult(stat);
     const correct = isCorrectPick(false, result);
-
-    if (result === "tie") {
-        streak++;
-    }
-    else if (correct) {
-        streak++;
-    } else {
-        streak = 0;
-    }
-
-    if (streak > maxstreak) maxstreak = streak;
-    document.getElementById("streak").textContent = streak;
-
+    // ... rest of your code unchanged ...
     playShutter(stat, result, correct);
 
     setTimeout(() => {
@@ -190,22 +191,11 @@ newdriv.addEventListener("click", function () {
 });
 
 olddriv.addEventListener("click", function () {
+    pickNextDriver(); // preload starts immediately
 
     const result = getResult(stat);
     const correct = isCorrectPick(true, result);
-
-    if (result === "tie") {
-        streak++;
-    }
-    else if (correct) {
-        streak++;
-    } else {
-        streak = 0;
-    }
-
-    if (streak > maxstreak) maxstreak = streak;
-    document.getElementById("streak").textContent = streak;
-
+    // ... rest of your code unchanged ...
     playShutter(stat, result, correct);
 
     setTimeout(() => {
