@@ -57,7 +57,7 @@
     "top 10s": 198,
     "top 5s": 120,
     "poles": 12,
-    "laps lead": 646,
+    "laps lead": 6246,
     "img": "chase elliott.png"
   },
   {
@@ -117,7 +117,7 @@
     "top 5s": 176,
     "poles": 34,
     "laps lead": 9586,
-    "img": "joey logano.png"
+    "img": "joeylogano.png"
   },
   {
     "name": "Kyle Larson",
@@ -513,7 +513,7 @@
     "top 5s": 161,
     "poles": 28,
     "laps lead": 10292,
-    "img": "kurt busch.png"
+    "img": "kurtbusch.png"
   },
   {
     "name": "Landon Cassill",
@@ -574,7 +574,7 @@
     "top 5s": 9,
     "poles": 0,
     "laps lead": 334,
-    "img": "matt dibenedetto.png"
+    "img": "matt dibendetto.png"
   },
   {
     "name": "Justin Haley",
@@ -702,7 +702,7 @@
     "wins": 26,
     "dnfs": 67,
     "dnqs": 0,
-    "top 10s": 620,
+    "top 10s": 260,
     "top 5s": 149,
     "poles": 15,
     "laps lead": 8234,
@@ -838,7 +838,7 @@
     "top 5s": 24,
     "poles": 9,
     "laps lead": 1124,
-    "img": "juna pablo montoya.png"
+    "img": "juan pablo montoya.png"
   },
   {
     "name": "David Reutimann",
