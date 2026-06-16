@@ -10,7 +10,7 @@ function getVisibleContainers() {
 
 const wallImages = [
   "richard petty.png","david pearson.png","jeff gordon.png","bobby allison.png","darrell waltrip.png","cale yarborough.png",
-  "jimmie johnson.png","dale sr.png","kyle busch.png","denny hamlin.png","kevin harvick.png","rusty wallace.png","lee petty.png",
+  "jimmie johnson.png","dale sr.png","denny hamlin.png","kyle busch.png","kevin harvick.png","rusty wallace.png","lee petty.png",
   "ned jarrett.png","junior johnson.png","tony stewart.png","herbthomas.png","buck baker.png","bill elliott.png","mark martin.png",
   "tim flock.png","matt kenseth.png","bobbyisaac.png","joeylogano.png","brad keselowski.png","kurtbusch.png","martin truexjr.png","fireball roberts.png",
   "dalejarrett.png","kyle larson.png","rex white.png","carl edwards.png","fredlorenzen.png","dalejr.png","jim paschal.png","joe weatherly.png", 
@@ -44,9 +44,9 @@ const wallImages = [
  
  "jj yeley.png","brian scott.png","scott pruett.png","scott riggs.png","zane smith.png","todd gilliland.png","dick trickle.png","doug cooper.png","dave blaney.png","richard childress.png","buddy arrington.png","ryan preece.png",
  "maurice petty.png","rene charland.png","jd mcduffie.png","skip manning.png","todd bodine.png","kenny irwin.png","casey atwood.png","scott wimmer.png","boris said.png","reed sorenson.png",
- "ty dillon.png","noah gragson.png","corey lajoie.png","jimmy thompson.png","herman beam.png","larry manning.png","al unser.png","bobby unser.png","steve grissom.png","landon cassill.png",
+ "ty dillon.png","noah gragson.png","corey lajoie.png","jimmy thompson.png","herman beam.png","larry manning.png","al unser.png","bobby unser.png","steve grissom.png","landon cassill.png","John H. Nemechek.png",
  "john soaresjr.png","bill schmitt.png","tighe scott.png","dk ulrich.png","rich bickle.png","pj jones.png","mike bliss.png","brendan gaughan.png","sam hornishjr.png","joey hand.png","cody ware.png",
- "john hunter nemechek.png","bill champion.png","ron keselowski.png","kevin lepage.png","elmo henderson.png","buren skeen.png","pedro rodriguez.png","worth mcmillion.png",
+ "bill champion.png","ron keselowski.png","kevin lepage.png","elmo henderson.png","buren skeen.png","pedro rodriguez.png","worth mcmillion.png",
  "jimmy hensley.png","marty robbins.png","terry bivins.png","randy lajoie.png","daniel hemric.png","johnny sauter.png","larry pearson.png","travis kvapil.png","jimmy helms.png"
  ,"freddy fryar.png","dick may.png","janet guthrie.png","tony raines.png","danica patrick.png","kaz grala.png","anthony alfredo.png","corey heim.png","roz howard.png","hoss ellington.png",
  "larry hess.png","billy foster.png","tommy gale.png","jimmy means.png","bj mcleod.png","parker retzlaff.png","roscoe thompson.png","red wickersham.png","ken bouchard.png","butch miller.png",
