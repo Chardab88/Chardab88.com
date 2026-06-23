@@ -182,6 +182,17 @@ newdriv.addEventListener("click", function () {
     const result = getResult(stat);
     const correct = isCorrectPick(false, result);
     // ... rest of your code unchanged ...
+    if (correct) {
+        streak++;
+    } else {
+        if (streak > maxstreak) {
+            maxstreak = streak;
+        }
+        streak = 0;
+    }
+
+    document.getElementById("streak").textContent = streak;
+
     playShutter(stat, result, correct);
 
     setTimeout(() => {
@@ -196,6 +207,17 @@ olddriv.addEventListener("click", function () {
     const result = getResult(stat);
     const correct = isCorrectPick(true, result);
     // ... rest of your code unchanged ...
+    if (correct) {
+        streak++;
+    } else {
+        if (streak > maxstreak) {
+            maxstreak = streak;
+        }
+        streak = 0;
+    }
+
+    document.getElementById("streak").textContent = streak;
+
     playShutter(stat, result, correct);
 
     setTimeout(() => {
