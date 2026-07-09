@@ -43,7 +43,7 @@ const wallImages = [
  "rick wilson.png","rick mast.png","chad little.png","mike skinner.png","robert pressley.png","mike wallace.png","jeff green.png",
  
  "jj yeley.png","brian scott.png","scott pruett.png","scott riggs.png","zane smith.png","todd gilliland.png","dick trickle.png","doug cooper.png","dave blaney.png",
- "bill dennis.png","richard childress.png","buddy arrington.png","ryan preece.png",
+ "bill dennis.png","richard childress.png","buddy arrington.png","ryan preece.png","bub king.png",
  "maurice petty.png","rene charland.png","jd mcduffie.png","skip manning.png","todd bodine.png","kenny irwin.png","casey atwood.png","scott wimmer.png","boris said.png","reed sorenson.png",
  "ty dillon.png","noah gragson.png","corey lajoie.png","jimmy thompson.png","herman beam.png","larry manning.png","al unser.png","bobby unser.png","steve grissom.png","landon cassill.png","John H. Nemechek.png",
  "ron hornadaysr.png","john soaresjr.png","bill schmitt.png","tighe scott.png","dk ulrich.png","rich bickle.png","pj jones.png","mike bliss.png","brendan gaughan.png","sam hornishjr.png","joey hand.png","cody ware.png",
@@ -74,10 +74,12 @@ const wallImages = [
  "sammy swindell.png","chad chaffin.png","ben rhodes.png","sam ard.png","jeff swindell.png","tony ave.png","stuart kirby.png","tanner berryhill.png",
 
  "mike marlar.png","will brown.png","bill lester.png","todd kleuver.png","austin therialt.png","alon day.png","tomy drissi.png","loris hezemans.png","hank parkerjr.png",
- "hideo fukuyama.png","larry gunselmen.png","mike olsen.png","kevin oconnel.png","chris windom.png","terry cook.png","tommy regan.png","spencer boyd.png","rc enerson.png","mike dillon.png","spencer gallagher.png",
- "cameron waters.png","daniil kvyat.png","shane hall.png","johnathon davenport.png","burt myers.png","gary mayeda.png","victor gonzalez.png","shane golobic.png","denny wilson.png","geoff brabham.png",
- "will kimmell.png","brian keselowski.png","matt mills.png","derek white.png","ryan eversley.png","helio castroneves.png","jack sellers.png","bobby rahal.png","adam petty.png",
- "chad blount.png","bob keselowski.png","wayne anderson.png"
+ "hideo fukuyama.png","larry gunselmen.png","mike olsen.png","kevin oconnel.png","chris windom.png","tim sauter.png","terry cook.png",
+ "tommy regan.png","spencer boyd.png","rc enerson.png","mike dillon.png","spencer gallagher.png",
+ "cameron waters.png","daniil kvyat.png","shane hall.png","johnathon davenport.png","burt myers.png","gary mayeda.png","jay sauter.png",
+ "victor gonzalez.png","shane golobic.png","denny wilson.png","geoff brabham.png","austin cameron.png",
+ "will kimmell.png","brian keselowski.png","matt mills.png","derek white.png","ryan eversley.png","helio castroneves.png","jack sellers.png","bobby rahal.png","adam petty.png"
+ ,"jason small.png","chad blount.png","jason hedlesky.png","bob keselowski.png","wayne anderson.png"
 ];
 
 const IMAGES_PER_ROW = 8;

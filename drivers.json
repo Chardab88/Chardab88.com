@@ -3287,8 +3287,7 @@
     "formteam": [
       "23XI Racing"
     ]
-  }
-  ,
+  },
   {
     "name": "Derek Kraus",
     "starts": 8,
@@ -3302,6 +3301,65 @@
     ],
     "formteam": [
       "NY Racing",
+      "Kaulig Racing"
+    ]
+  },
+  {
+    "name": "Will Brown",
+    "starts": 2,
+    "wins": 0,
+    "team": "Richard Childress Racing",
+    "carnum": 33,
+    "rokyear": 2024,
+    "forcarnum": [
+      33
+    ],
+    "formteam": [
+      "Richard Childress Racing"
+    ]
+  },
+  {
+    "name": "Cam Waters",
+    "starts": 1,
+    "wins": 0,
+    "team": "Roush Fenway Keselowski",
+    "carnum": 60,
+    "rokyear": 2024,
+    "forcarnum": [
+      60
+    ],
+    "formteam": [
+      "Roush Fenway Keselowski"
+    ]
+  },
+  {
+    "name": "Josh Williams",
+    "starts": 5,
+    "wins": 0,
+    "team": "Kaulig Racing",
+    "carnum": 16,
+    "rokyear": 2022,
+    "forcarnum": [
+      16,
+      78
+    ],
+    "formteam": [
+      "Kaulig Racing",
+      "Live Fast Motorsports"
+    ]
+  }
+  ,
+  {
+    "name": "Chandler Smith",
+    "starts": 3,
+    "wins": 0,
+    "team": "Kaulig Racing",
+    "carnum": 13,
+    "rokyear": 2023,
+    "forcarnum": [
+      13
+    ],
+    "formteam": [
       "Kaulig Racing"
     ]
   }
