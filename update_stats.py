@@ -1,6 +1,6 @@
 import json
 import shutil
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 
 HEADERS = {
@@ -14,8 +14,14 @@ HEADERS = {
         "application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
     ),
     "Accept-Language": "en-US,en;q=0.5",
+    "Accept-Encoding": "gzip, deflate, br",
     "Connection": "keep-alive",
     "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Referer": "https://www.racing-reference.info/",
 }
 
 
@@ -83,9 +89,11 @@ print(f"\nLoading {url}")
 
 backup_files()
 
-session = requests.Session()
+# cloudscraper handles the Cloudflare JS challenge that plain
+# requests/curl_cffi can't get past on this site.
+scraper = cloudscraper.create_scraper()
 
-r = session.get(
+r = scraper.get(
     url,
     headers=HEADERS,
     timeout=30
