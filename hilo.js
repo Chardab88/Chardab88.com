@@ -15,8 +15,9 @@ const stats = [
     { name: "laps lead", weight: 10 },
 ];
 let drivers = [];
-let maxstreak = 0;
 let streak = 0;
+let maxstreak = Number(localStorage.getItem("maxStreak")) || 0;
+document.getElementById("maxstreak").textContent = maxstreak;
 
 fetch("hilodriv.json")
   .then(res => res.json())
@@ -55,9 +56,6 @@ function randomnewdriver() {
     document.getElementById("newdriv").textContent = newdriver.name;
     newdrivpic.src = `wallimgss/${newdriver.img}`;
     
-    if (streak > maxstreak){
-        maxstreak = streak;
-    }
     document.getElementById("streak").textContent = streak;
     randomstat();
 }
@@ -67,7 +65,12 @@ function randomnewdriver() {
 let nextdriver = null;
 
 function pickNextDriver() {
+
     nextdriver = drivers[Math.floor(Math.random() * drivers.length)];
+
+    while (nextdriver == newdriver){
+        nextdriver = drivers[Math.floor(Math.random() * drivers.length)];
+    }
     // preload the image immediately
     const preload = new Image();
     preload.src = `wallimgss/${nextdriver.img}`;
@@ -181,17 +184,26 @@ newdriv.addEventListener("click", function () {
 
     const result = getResult(stat);
     const correct = isCorrectPick(false, result);
-    // ... rest of your code unchanged ...
+    
     if (correct) {
         streak++;
+         if (streak > maxstreak) {
+            maxstreak = streak;
+            localStorage.setItem("maxStreak", maxstreak);
+            document.getElementById("maxstreak").textContent = maxstreak;
+        }
+
     } else {
         if (streak > maxstreak) {
             maxstreak = streak;
+            localStorage.setItem("maxStreak", maxstreak);
+            document.getElementById("maxstreak").textContent = maxstreak;
         }
         streak = 0;
     }
 
     document.getElementById("streak").textContent = streak;
+    document.getElementById("maxstreak").textContent = maxstreak;
 
     playShutter(stat, result, correct);
 
@@ -209,14 +221,23 @@ olddriv.addEventListener("click", function () {
     // ... rest of your code unchanged ...
     if (correct) {
         streak++;
+         if (streak > maxstreak) {
+            maxstreak = streak;
+            localStorage.setItem("maxStreak", maxstreak);
+            document.getElementById("maxstreak").textContent = maxstreak;
+        }
+        
     } else {
         if (streak > maxstreak) {
             maxstreak = streak;
+            localStorage.setItem("maxStreak", maxstreak);
+            document.getElementById("maxstreak").textContent = maxstreak;
         }
         streak = 0;
     }
 
     document.getElementById("streak").textContent = streak;
+    document.getElementById("maxstreak").textContent = maxstreak;
 
     playShutter(stat, result, correct);
 
