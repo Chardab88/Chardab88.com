@@ -241,35 +241,6 @@
     font-size: 20px;
 }
 
-.reset{
-    background-image: url(images/blade\ guy.png);
-    
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 10px;
-    font-size: 200%;
-    text-indent: -9999999px;
-    height: 130px;
-    width: 80px;
-    
-    
-}
-.resetstats{
-    background-image: url(images/aidan.png);
-    
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 10px;
-    font-size: 200%;
-    text-indent: -9999999px;
-    height: 130px;
-    width: 80px;
-    
-    
-}
-.luck{
-    visibility: hidden;
-}
 .navbar{
     display: flex;
     flex-direction: column;
@@ -403,37 +374,183 @@
     position: relative;
 
 }
-.containertest {
+
+
+@media screen and (max-width: 1060px){
+    .game2{
+    height: 1000px;
+    width: 750px;
+}
+#driverguess {
+    background-color: rgb(65, 70, 70);   /* box color */
+    color: white;             /* text color */
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: nascar;
+/* styling^^^^     position below */
+    position: absolute;
+    bottom: 10px;   
+    left: 50%;
+    transform: translateX(-50%); /* center horizontally */
+    width: 90%;    
+}
+
+
+.statsboard{
+    height: 900px;
+    width: 750px;
+    border-radius: 16px;
+    border: 8px solid black;
+    padding: 16px;
+    font-size: 75px;
+}
+
+.plays{
+    font-size: 50px;
+}
+.wons{
+    font-size: 50px;
+}
+.lost{
+    font-size: 50px;
+}
+.streak{
+    font-size: 50px;
+}
+.maxstreak{
+    font-size: 50px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    gap: 16px; /* space between square + text */
+    margin-bottom: 16px;
+}
+
+.square {
+    width: 81px;
+    height: 81px;
+    border: 3px solid black;
+
+}
+.statsquare {
+    width: 81px;
+    height: 81px;
+    border: 5px solid black;
+}
+
+.helpboard{
+    height: 1000px;
+    width: 750px;
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 50px auto;   
+}
+.title{
+    font-size:  50px;
+}
+.helptext{
+    font-size: 35px;
+}.text{
+    font-size: 35px;
+}
+
+
+.bluesquare{
+    font-size: 50px;
+}
+.orangesquare{
+    font-size: 50px;
+}
+.yellowsquare{
+    width: 81px;
+    height: 81px;
+    font-size: 50px;
+}
+.greensquare{
+    font-size: 50px;
+}
+
+
+.guess{
+    visibility: hidden;
+    font-size: 15px;
+}
+.starts{
+    visibility: hidden;
+    font-size: 25px;
+}
+.wins{
+    visibility: hidden;
+    font-size: 25px;
+}
+.team{
+    visibility: hidden;
+    font-size: 25px;
+}
+.carnum{
+    visibility: hidden;
+    font-size: 25px;
+}
+.rokyear{
+    visibility: hidden;
+    font-size: 25px;
+}
+.toprow{
+    font-size: 20px;
+}
+
+
+.question{
+
+    height: 66px;
+    width: 66px;
+    right: 76px;
+    
+}
+.stats_button{
+    height: 66px;
+    width: 66px;
+
+    
+}
+.hardmode{
+    font-size: 220%;
+    width: 80px;
+    height: 80px;
+}
+.easymode{
+    font-size: 220%;
+    width: 80px;
+    height: 80px;
+}
+
+
+.stewart{
+    font-size: 35px;
+}
+.container {
   display: grid;
-  grid-template-columns: 75px ;
-  grid-template-rows: 75px 75px 75px 75px 75px 75px;
-  place-items: center;
+  grid-template-columns: 125px 125px 125px 125px 125px 125px;
+  grid-template-rows: 125px 125px 125px 125px 125px 125px;
   height: 10px;
 
   
 }
-.containertest div {
-    width: 65px;
-    height: 65px;
-    border: 3px solid black;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-
-    white-space: normal;   /* allow multiple lines */
-    word-break:normal;
-    overflow-wrap: break-word;
+.container div {
+    width: 108px;
+    height: 108px;
+    border: 5px solid black;
+    font-size: 35px;
 }
-.containertest div {
-    font-size: clamp(10px, 2vw, 18px);
+.container div {
+    font-size: clamp(16px, 2vw, 30px);
 }
-
-
-@media screen and (max-width: 1060px){
-    
+.container h1 {
+        font-size: 32px;
+    }
 
 
 }

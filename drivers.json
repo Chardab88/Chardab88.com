@@ -3361,5 +3361,22 @@
     "formteam": [
       "Kaulig Racing"
     ]
+  },
+  {
+    "name": "Bayley Currey",
+    "starts": 12,
+    "wins": 0,
+    "team": "Rick Ware Racing",
+    "carnum": 15,
+    "rokyear": 2019,
+    "forcarnum": [
+      52,
+      51,
+      15,
+      53
+    ],
+    "formteam": [
+      "Rick Ware Racing"
+    ]
   }
 ]

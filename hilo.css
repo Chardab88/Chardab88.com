@@ -40,7 +40,10 @@ footer{
     background-color: green;
     border: 5px solid black;
     margin: 3px;
-    
+    transition: transform 0.2s ease;
+}
+.boardtext a:hover {
+    transform: scale(1.05);
 }
 .container{
     display: flex;
@@ -105,7 +108,7 @@ footer{
 .shutter.up {
     top: -100%;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
     .container {
         flex-direction: column;
         align-items: center;
