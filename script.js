@@ -29,7 +29,7 @@ const wallImages = [
   "red byron.png","gober sosebee.png","al keller.png","danny letner.png","billy myers.png","tom pistone.png","marvin porter.png", "joe lee johnson.png",
   "john beauchamp.png","emanuel zervakis.png","bobby johns.png","jimmy pardue.png","elmo langley.png","ray elder.png","james hylton.png","derrike cope.png",
  "jimmy spencer.png","john andretti.png","steve park.png","ricky craven.png","david reutimann.png","juan pablo montoya.png","marcos ambrose.png","david ragan.png",
- "michael mcdowell.png","corey heim.png","jim roper.png","jack white.png","harold kite.png","bill rexford.png","jimmy florian.png","johnny mantz.png","leon sales.png",
+ "michael mcdowell.png","corey heim.png", "ty gibbs.png","jim roper.png","jack white.png","harold kite.png","bill rexford.png","jimmy florian.png","johnny mantz.png","leon sales.png",
  "lloyd moore.png","lou figaro.png","tommy thompson.png","neil cole.png","marvin burke.png","danny weinberg.png","bill norton.png","buddy shuman.png","donald thomas.png",
 
  "dick passwater.png","john soares.png","norm nelson.png","chuck stevenson.png","joe eubanks.png","royce hagerty.png","art watts.png","bill amick.png","danny graves.png",
@@ -37,7 +37,7 @@ const wallImages = [
  "wendell scott.png","earl balmer.png","jim hurtubise.png","sam mcquagg.png","paul lewis.png","mario andretti.png","richard brickhouse.png","mark donohue.png","dick brooks.png",
  "earl ross.png","lennie pond.png","ron bouchard.png","jody ridley.png","greg sacks.png","bobby hillin.png","lake speed.png","phil parsons.png","brett bodine.png","jerry nadeau.png",
  "casey mears.png","johnny benson.png","trevor bayne.png","regan smith.png","paul menard.png","justin haley.png","cole custer.png","harrison burton.png","josh berry.png",
- "ty gibbs.png","carson hocevar.png","gc spencer.png","neil castles.png","ted musgrave.png","possum jones.png","john sears.png","joe ruttman.png","kenny wallace.png",
+"carson hocevar.png","gc spencer.png","neil castles.png","ted musgrave.png","possum jones.png","john sears.png","joe ruttman.png","kenny wallace.png",
  "matt dibendetto.png","jim massey.png","ralph earnhardt.png","jt putney.png","bud moore.png","wally dallenbach.png","hut stricklin.png","ron fellows.png","david gilliland.png","chuck mahoney.png",
  "banjo matthews.png","larry thomas.png","stick elliott.png","jim vandiver.png","roger mcclusky.png","ramo stott.png","cecil gordon.png","joe millikan.png","butch lindley.png",
  "rick wilson.png","rick mast.png","chad little.png","mike skinner.png","robert pressley.png","mike wallace.png","jeff green.png",
@@ -50,7 +50,7 @@ const wallImages = [
  "bill champion.png","ron keselowski.png","kevin lepage.png","elmo henderson.png","buren skeen.png","pedro rodriguez.png","worth mcmillion.png",
  "jimmy hensley.png","marty robbins.png","terry bivins.png","grant adcox.png","randy lajoie.png","daniel hemric.png","johnny sauter.png","don tarr.png","larry pearson.png","travis kvapil.png","jimmy helms.png","ed hessert.png"
  ,"freddy fryar.png","dick may.png","janet guthrie.png","tony raines.png","danica patrick.png","kaz grala.png","anthony alfredo.png","roz howard.png","hoss ellington.png",
- "larry hess.png","billy foster.png","tommy gale.png","jimmy means.png","bj mcleod.png","parker retzlaff.png","connor zilisch.png","roscoe thompson.png","red wickersham.png","ken bouchard.png","butch miller.png",
+ "larry hess.png","billy foster.png","tommy gale.png","jimmy means.png","bj mcleod.png","parker retzlaff.png","connor zilisch.png","roscoe thompson.png","red wickersham.png","dean combs.png","ken bouchard.png","butch miller.png",
  "tommy kendall.png",
 
   "buckshot jones.png","david stremme.png","max papis.png","brett moffitt.png","justin allgaier.png","riley herbst.png","jim sauter.png","stan barrett.png","don whittington.png","rodney combs.png",
@@ -58,29 +58,29 @@ const wallImages = [
  "loy allen.png","stacy compton.png","jason leffler.png","brian simo.png","josh wise.png","josh bilicki.png","bobby hamiltonjr.png","bill wimble.png","ken miles.png","jack bowsher.png","tommy houston.png","ken ragan.png",
  "jack pennington.png","cole whitt.png","jeffrey earnhardt.png","travis pastrana.png","chandler smith.png","charlie chapman.png","earle canavan.png","bill whiteley.png",
  "butch leitzinger.png","jeff purvis.png","david green.png","jan magnussen.png","justin marks.png","jimmy horton.png","scott lagasse.png","blackie wangerin.png","dorsey schoeder.png","michael annett.png",
- "dj kennington.png","quinn houff.png","billy standridge.png","elton saywer.png","jack sprague.png","timmy hill.png","phil barkdoll.png","parker kligerman.png","roland wloydka.png",
- "randy ogden.png","rick hendrick.png","roger baldwin.png","dave alonzo.png","al laqusto.png","mark stahl.png","larry foyt.png","ray black jr.png","pancho carter.png","david hobbs.png","delma cowart.png","kerry earnhardt.png",
+ "dj kennington.png","quinn houff.png","billy standridge.png","elton sawyer.png","jack sprague.png","kevin conway.png","timmy hill.png","phil barkdoll.png","parker kligerman.png","roland wloydka.png",
+ "randy ogden.png","rick hendrick.png","roger baldwin.png","dave alonzo.png","al laqusto.png","mark stahl.png","larry foyt.png","ray black jr.png","pancho carter.png","david hobbs.png","delma cowart.png","randy baker.png","kerry earnhardt.png",
  "chad mccumbee.png","joey gase.png","katherine legge.png","smokey yunick.png","bill venturini.png","hermie sadler.png","andy lally.png","matt crafton.png","jenson button.png",
  "bobby gerhart.png","scott sharp.png","jim inglebright.png","mike rockenfeller.png","tracy laslie.png","davy jones.png","ed berrier.png","kirk shelmerdine.png",
 
  "ryan truex.png","rick carelli.png","terry schoonover.png","larry caudill.png","stanley smith.png","jerry oneil.png","brent sherman.png","mattias ekstrom.png","garrett smithley.png","dick johnson.png",
- "willy tribbs.png","mike mclaughlin.png","ron barfield.png","jeff fuller.png","dario franchitti.png","billy johnson.png","mark thompson.png","harrison rhodes.png","james davison.png",
- "brodie kostecki.png","gary bradberry.png",
- "stewart friesen.png","david starr.png","jocko maggiacomo.png","butch gilliland.png","shane hmeil.png","tom herbert.png","stephen leicht.png","owen kelly.png","sarel verde.png","shawna robinson.png","tom hubert.png","christian fittipaldi.png",
- "ryan sieg.png","jordan taylor.png","jesse love.png","josh williams.png","ritchie petty.png","jay hedgecock.png","mike garvey.png","alex kennedy.png","dylan lupton.png","bayley currey.png",
+ "willy tribbs.png","mike mclaughlin.png","ron barfield.png","andy hillenburg.png","jeff fuller.png","dario franchitti.png","billy johnson.png","mark thompson.png","harrison rhodes.png","james davison.png",
+ "brodie kostecki.png","gary bradberry.png","tim fedewa.png",
+ "stewart friesen.png","david starr.png","jocko maggiacomo.png","randy macdonald.png","butch gilliland.png","shane hmeil.png","tom herbert.png","stephen leicht.png","owen kelly.png","sarel van der merwe.png","shawna robinson.png","tom hubert.png","christian fittipaldi.png",
+ "ryan sieg.png","jordan taylor.png","jesse love.png","daniel dye.png","josh williams.png","ritchie petty.png","jay hedgecock.png","mike garvey.png","alex kennedy.png","dylan lupton.png","bayley currey.png",
  "derek kraus.png","curtis markham.png","patty moise.png","frank kimmel.png","jason keller.png","eric mcclure.png","andy pilgrim.png","nelson piquet jr.png","ryan reed.png",
  "kyle weatherman.png","scott heckert.png","grant enfinger.png","brian ross.png","jerry hill.png","ed ferre.png","steve kinser.png","joe bessey.png","jeb burton.png","blake jones.png","kevin magnussen.png",
  "andy belmont.png","bryan baker.png","brent kaeding.png","scott gaylord.png","carl long.png","andy seuss.png","chad finchum.png","jason jarrett.png","jon wood.png","erik darnell.png",
  "drew herring.png","conor daly.png","kimi raikkonen.png","sheldon creed.png","kamui kobayashi.png","norm benning.png","frank james.png","stan barrett.png","jim clark.png","kyle tilley.png",
- "sammy swindell.png","chad chaffin.png","ben rhodes.png","sam ard.png","jeff swindell.png","tony ave.png","stuart kirby.png","joey mccarthy.png","gary klutt.png","tanner berryhill.png",
+ "sammy swindell.png","chad chaffin.png","ben rhodes.png","sam ard.png","jeff swindell.png","doug george.png","ted christopher.png","tony ave.png","stuart kirby.png","joey mccarthy.png","gary klutt.png","tanner berryhill.png",
 
- "mike marlar.png","will brown.png","bill lester.png","todd kleuver.png","austin therialt.png","alon day.png","tomy drissi.png","loris hezemans.png","hank parkerjr.png",
- "hideo fukuyama.png","larry gunselmen.png","mike olsen.png","kevin oconnel.png","chris windom.png","tim sauter.png","terry cook.png",
- "tommy regan.png","spencer boyd.png","rc enerson.png","mike dillon.png","jorge goeters.png","spencer gallagher.png",
- "cameron waters.png","daniil kvyat.png","al unser jr.png","shane hall.png","johnathon davenport.png","burt myers.png","gary wright.png","sean woodside.png","jay sauter.png",
- "victor gonzalez.png","shane golobic.png","denny wilson.png","geoff brabham.png","austin cameron.png",
+ "mike marlar.png","will brown.png","bill lester.png","todd kleuver.png","ryan ellis.png","austin therialt.png","alon day.png","tomy drissi.png","loris hezemans.png","gary wright.png","sean woodside.png","hank parkerjr.png",
+ "hideo fukuyama.png","larry gunselmen.png","mike olsen.png","kevin oconnel.png","chris windom.png","michael ritch.png","tim sauter.png","terry cook.png",
+ "tommy regan.png","spencer boyd.png","rc enerson.png","jeff krogh.png","mike dillon.png","jorge goeters.png","spencer gallagher.png",
+ "cameron waters.png","daniil kvyat.png","al unser jr.png","shane hall.png","dan pardus.png","johnathon davenport.png","burt myers.png","rich woodland.png","jay sauter.png",
+ "victor gonzalez.png","shane golobic.png","denny wilson.png","geoff brabham.png","austin cameron.png","kelly bires.png",
  "will kimmell.png","david murry.png","brian keselowski.png","matt mills.png","derek white.png","ryan eversley.png","helio castroneves.png","jack sellers.png","bobby rahal.png","adam petty.png"
- ,"mario gosselin.png","jason small.png","chad blount.png","jerry robertson.png","randy renfrow.png","jason hedlesky.png","bob keselowski.png","wayne anderson.png","random.png"
+ ,"mario gosselin.png","bob keselowski.png","ken pedersen.png","jason small.png","chad blount.png","jerry robertson.png","joe varde.png","dan obrist.png","randy renfrow.png","jason hedlesky.png","wayne anderson.png","ernie cope.png","random.png"
 ];
 
 const IMAGES_PER_ROW = 8;
