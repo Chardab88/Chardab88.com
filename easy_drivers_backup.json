@@ -1,7 +1,7 @@
 [
   {
     "name": "Denny Hamlin",
-    "starts": 745,
+    "starts": 746,
     "wins": 64,
     "team": "Joe Gibbs Racing",
     "carnum": 11,
@@ -15,7 +15,7 @@
   },
   {
     "name": "Chase Elliott",
-    "starts": 382,
+    "starts": 383,
     "wins": 24,
     "team": "Hendrick Motorsports",
     "carnum": 9,
@@ -31,7 +31,7 @@
   },
   {
     "name": "Ryan Blaney",
-    "starts": 402,
+    "starts": 403,
     "wins": 19,
     "team": "Penske",
     "carnum": 12,
@@ -47,7 +47,7 @@
   },
   {
     "name": "Tyler Reddick",
-    "starts": 242,
+    "starts": 243,
     "wins": 13,
     "team": "23XI Racing",
     "carnum": 45,
@@ -64,7 +64,7 @@
   },
   {
     "name": "Ty Gibbs",
-    "starts": 147,
+    "starts": 148,
     "wins": 2,
     "team": "Joe Gibbs Racing",
     "carnum": 54,
@@ -99,7 +99,7 @@
   },
   {
     "name": "Joey Logano",
-    "starts": 638,
+    "starts": 639,
     "wins": 39,
     "team": "Penske",
     "carnum": 22,
@@ -117,7 +117,7 @@
   },
   {
     "name": "Kyle Larson",
-    "starts": 426,
+    "starts": 427,
     "wins": 32,
     "team": "Hendrick Motorsports",
     "carnum": 5,
@@ -135,7 +135,7 @@
   },
   {
     "name": "William Byron",
-    "starts": 312,
+    "starts": 313,
     "wins": 16,
     "team": "Hendrick Motorsports",
     "carnum": 24,
@@ -149,7 +149,7 @@
   },
   {
     "name": "Christopher Bell",
-    "starts": 241,
+    "starts": 242,
     "wins": 13,
     "team": "Joe Gibbs Racing",
     "carnum": 20,
@@ -165,7 +165,7 @@
   },
   {
     "name": "Ross Chastain",
-    "starts": 283,
+    "starts": 284,
     "wins": 6,
     "team": "Trackhouse Racing",
     "carnum": 1,
@@ -189,7 +189,7 @@
   },
   {
     "name": "Austin Dillon",
-    "starts": 468,
+    "starts": 469,
     "wins": 6,
     "team": "Richard Childress Racing",
     "carnum": 3,
@@ -211,7 +211,7 @@
   },
   {
     "name": "Shane Van Gisbergen",
-    "starts": 74,
+    "starts": 75,
     "wins": 8,
     "team": "Trackhouse Racing",
     "carnum": 97,
@@ -230,7 +230,7 @@
   },
   {
     "name": "Chase Briscoe",
-    "starts": 204,
+    "starts": 205,
     "wins": 6,
     "team": "Joe Gibbs Racing",
     "carnum": 19,
@@ -246,7 +246,7 @@
   },
   {
     "name": "Austin Cindric",
-    "starts": 175,
+    "starts": 176,
     "wins": 3,
     "team": "Penske",
     "carnum": 2,
@@ -261,7 +261,7 @@
   },
   {
     "name": "Bubba Wallace",
-    "starts": 315,
+    "starts": 316,
     "wins": 3,
     "team": "23XI Racing",
     "carnum": 23,
@@ -278,7 +278,7 @@
   },
   {
     "name": "Josh Berry",
-    "starts": 108,
+    "starts": 109,
     "wins": 1,
     "team": "Wood Bros",
     "carnum": 21,
@@ -301,7 +301,7 @@
   },
   {
     "name": "Todd Gilliland",
-    "starts": 168,
+    "starts": 169,
     "wins": 0,
     "team": "Front Row Motorsports",
     "carnum": 34,
@@ -320,7 +320,7 @@
   },
   {
     "name": "Carson Hocevar",
-    "starts": 105,
+    "starts": 106,
     "wins": 1,
     "team": "Spire Motorsports",
     "carnum": 77,
@@ -337,8 +337,8 @@
   },
   {
     "name": "Ryan Preece",
-    "starts": 247,
-    "wins": 0,
+    "starts": 248,
+    "wins": 1,
     "team": "Roush Fenway Keselowski",
     "carnum": 60,
     "rokyear": 2015,
@@ -361,7 +361,7 @@
   },
   {
     "name": "John H. Nemechek",
-    "starts": 136,
+    "starts": 137,
     "wins": 0,
     "team": "Legacy Motor Club",
     "carnum": 42,
@@ -380,7 +380,7 @@
   },
   {
     "name": "Connor Zilisch",
-    "starts": 27,
+    "starts": 28,
     "wins": 0,
     "team": "Trackhouse Racing",
     "carnum": 88,
@@ -395,7 +395,7 @@
   },
   {
     "name": "Alex Bowman",
-    "starts": 381,
+    "starts": 382,
     "wins": 8,
     "team": "Hendrick Motorsports",
     "carnum": 48,
@@ -414,7 +414,7 @@
   },
   {
     "name": "Chris Buescher",
-    "starts": 389,
+    "starts": 390,
     "wins": 6,
     "team": "Roush Fenway Keselowski",
     "carnum": 17,
@@ -432,7 +432,7 @@
   },
   {
     "name": "Ricky Stenhouse Jr",
-    "starts": 496,
+    "starts": 497,
     "wins": 4,
     "team": "Hyak Motorsports",
     "carnum": 47,
@@ -451,7 +451,7 @@
   },
   {
     "name": "Daniel Suarez",
-    "starts": 347,
+    "starts": 348,
     "wins": 3,
     "team": "Spire Motorsports",
     "carnum": 7,
@@ -473,7 +473,7 @@
   },
   {
     "name": "Zane Smith",
-    "starts": 105,
+    "starts": 106,
     "wins": 0,
     "team": "Front Row Motorsports",
     "carnum": 38,
@@ -494,7 +494,7 @@
   },
   {
     "name": "Noah Gragson",
-    "starts": 135,
+    "starts": 136,
     "wins": 0,
     "team": "Front Row Motorsports",
     "carnum": 4,
@@ -518,7 +518,7 @@
   },
   {
     "name": "Cody Ware",
-    "starts": 166,
+    "starts": 167,
     "wins": 0,
     "team": "Rick Ware Racing",
     "carnum": 51,
@@ -536,7 +536,7 @@
   },
   {
     "name": "Cole Custer",
-    "starts": 177,
+    "starts": 178,
     "wins": 1,
     "team": "Haas Factory Team",
     "carnum": 41,
@@ -553,7 +553,7 @@
   },
   {
     "name": "Erik jones",
-    "starts": 350,
+    "starts": 351,
     "wins": 3,
     "team": "Legacy Motor Club",
     "carnum": 43,
@@ -572,7 +572,7 @@
   },
   {
     "name": "Michael McDowell",
-    "starts": 561,
+    "starts": 562,
     "wins": 2,
     "team": "Spire Motorsports",
     "carnum": 71,
@@ -606,7 +606,7 @@
   },
   {
     "name": "Ty Dillon",
-    "starts": 304,
+    "starts": 305,
     "wins": 0,
     "team": "Kaulig Racing",
     "carnum": 10,
@@ -638,7 +638,7 @@
   },
   {
     "name": "AJ Allmendinger",
-    "starts": 506,
+    "starts": 507,
     "wins": 3,
     "team": "Kaulig Racing",
     "carnum": 16,
@@ -666,7 +666,7 @@
   },
   {
     "name": "Brad Keselowski",
-    "starts": 617,
+    "starts": 618,
     "wins": 36,
     "team": "Roush Fenway Keselowski",
     "carnum": 6,
@@ -706,7 +706,7 @@
   },
   {
     "name": "Corey Heim",
-    "starts": 15,
+    "starts": 16,
     "wins": 2,
     "team": "23XI Racing",
     "carnum": 67,
@@ -723,7 +723,7 @@
   },
   {
     "name": "Austin Hill",
-    "starts": 28,
+    "starts": 29,
     "wins": 0,
     "team": "Richard Childress Racing",
     "carnum": 33,
@@ -755,14 +755,15 @@
   },
   {
     "name": "Harrison Burton",
-    "starts": 109,
+    "starts": 110,
     "wins": 1,
     "team": "Wood Brothers Racing",
-    "carnum": 21,
+    "carnum": 35,
     "rokyear": 2021,
     "forcarnum": [
       21,
-      96
+      96,
+      35
     ],
     "formteam": [
       "Wood Brothers Racing",

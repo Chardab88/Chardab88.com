@@ -50,10 +50,10 @@ const wallImages = [
  "bill champion.png","ron keselowski.png","kevin lepage.png","elmo henderson.png","buren skeen.png","pedro rodriguez.png","worth mcmillion.png",
  "jimmy hensley.png","marty robbins.png","terry bivins.png","grant adcox.png","randy lajoie.png","daniel hemric.png","johnny sauter.png","don tarr.png","larry pearson.png","travis kvapil.png","jimmy helms.png","ed hessert.png"
  ,"freddy fryar.png","dick may.png","janet guthrie.png","tony raines.png","danica patrick.png","kaz grala.png","anthony alfredo.png","roz howard.png","hoss ellington.png",
- "larry hess.png","billy foster.png","tommy gale.png","jimmy means.png","bj mcleod.png","parker retzlaff.png","connor zilisch.png","roscoe thompson.png","red wickersham.png","dean combs.png","ken bouchard.png","irv hoerr.png","butch miller.png",
+ "larry hess.png","billy foster.png","tommy gale.png","jimmy means.png","bj mcleod.png","parker retzlaff.png","connor zilisch.png","roscoe thompson.png","riley herbst.png","red wickersham.png","dean combs.png","ken bouchard.png","irv hoerr.png","butch miller.png",
  "tommy kendall.png",
 
-  "buckshot jones.png","david stremme.png","max papis.png","brett moffitt.png","justin allgaier.png","riley herbst.png","jim sauter.png","stan barrett.png","don whittington.png","rodney combs.png",
+  "buckshot jones.png","david stremme.png","max papis.png","brett moffitt.png","justin allgaier.png","jim sauter.png","stan barrett.png","don whittington.png","rodney combs.png",
  "rob moroso.png","ron hornadayjr.png","gray gaulding.png","matt tifft.png","brennan poole.png","austin hill.png","roger hamby.png","bob potter.png","wes morgan.png","jim bown.png",
  "loy allen.png","stacy compton.png","jason leffler.png","brian simo.png","josh wise.png","josh bilicki.png","bobby hamiltonjr.png","bill wimble.png","ken miles.png","jack bowsher.png","tommy houston.png","ken ragan.png",
  "jack pennington.png","cole whitt.png","jeffrey earnhardt.png","travis pastrana.png","chandler smith.png","charlie chapman.png","earle canavan.png","bill whiteley.png",
