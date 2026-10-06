@@ -12,12 +12,12 @@ const wallImages = [
   "richard petty.png","david pearson.png","jeff gordon.png","bobby allison.png","darrell waltrip.png","cale yarborough.png",
   "jimmie johnson.png","dale sr.png","denny hamlin.png","kyle busch.png","kevin harvick.png","rusty wallace.png","lee petty.png",
   "ned jarrett.png","junior johnson.png","tony stewart.png","herbthomas.png","buck baker.png","bill elliott.png","mark martin.png",
-  "tim flock.png","matt kenseth.png","bobbyisaac.png","joeylogano.png","brad keselowski.png","kurtbusch.png","martin truexjr.png","fireball roberts.png",
-  "dalejarrett.png","kyle larson.png","rex white.png","carl edwards.png","fredlorenzen.png","dalejr.png","jim paschal.png","joe weatherly.png", 
+  "tim flock.png","matt kenseth.png","bobbyisaac.png","joeylogano.png","brad keselowski.png","kurtbusch.png","martin truexjr.png","fireball roberts.png","kyle larson.png",
+  "dalejarrett.png","rex white.png","carl edwards.png","fredlorenzen.png","dalejr.png","jim paschal.png","joe weatherly.png", 
   "ricky rudd.png","chase elliott.png","terry labonte.png","jack smith.png", "benny parsons.png","bobby labonte.png","jeff burton.png","speedy thompson.png",
   "fonty flock.png","buddy baker.png","davey allison.png",  "greg biffle.png","neil bonnett.png","harry gant.png","geoff bodine.png","ryan newman.png","kasey kahne.png",
-  "ryan blaney.png","curtis turner.png","marvin panch.png", "william byron.png","ernie irvan.png","dick hutcherson.png","leeroy yarbrough.png","dick rathman.png",
-  "tim richmond.png","christopher bell.png","donnieallison.png", "tyler reddick.png","sterling marlin.png","clint bowyer.png","bob welborn.png","cotton owens.png",
+  "ryan blaney.png","curtis turner.png","marvin panch.png", "william byron.png","ernie irvan.png","dick hutcherson.png","leeroy yarbrough.png","christopher bell.png","dick rathman.png",
+  "tim richmond.png","donnieallison.png", "tyler reddick.png","sterling marlin.png","clint bowyer.png","bob welborn.png","cotton owens.png",
   "paul goldsmith.png","kyle petty.png","alex bowman.png", "svg.png","darel dienger.png","jim reed.png","marshall teague.png","ajfoyt.png","jamie mcmurray.png",
   "chris buescher.png","ross chastain.png",
   
@@ -49,8 +49,8 @@ const wallImages = [
  "ron hornadaysr.png","john soaresjr.png","george follmer.png","bill schmitt.png","tighe scott.png","dk ulrich.png","rich bickle.png","pj jones.png","mike bliss.png","brendan gaughan.png","sam hornishjr.png","joey hand.png","cody ware.png",
  "bill champion.png","ron keselowski.png","kevin lepage.png","elmo henderson.png","buren skeen.png","pedro rodriguez.png","worth mcmillion.png",
  "jimmy hensley.png","marty robbins.png","terry bivins.png","grant adcox.png","randy lajoie.png","daniel hemric.png","johnny sauter.png","don tarr.png","larry pearson.png","travis kvapil.png","jimmy helms.png","ed hessert.png"
- ,"freddy fryar.png","dick may.png","janet guthrie.png","tony raines.png","danica patrick.png","kaz grala.png","anthony alfredo.png","roz howard.png","hoss ellington.png",
- "larry hess.png","billy foster.png","tommy gale.png","jimmy means.png","bj mcleod.png","parker retzlaff.png","connor zilisch.png","roscoe thompson.png","riley herbst.png","red wickersham.png","dean combs.png","ken bouchard.png","irv hoerr.png","butch miller.png",
+ ,"freddy fryar.png","dick may.png","janet guthrie.png","tony raines.png","danica patrick.png","kaz grala.png","anthony alfredo.png","roz howard.png","hoss ellington.png","connor zilisch.png",
+ "larry hess.png","billy foster.png","tommy gale.png","jimmy means.png","bj mcleod.png","parker retzlaff.png","roscoe thompson.png","riley herbst.png","red wickersham.png","dean combs.png","ken bouchard.png","irv hoerr.png","butch miller.png",
  "tommy kendall.png",
 
   "buckshot jones.png","david stremme.png","max papis.png","brett moffitt.png","justin allgaier.png","jim sauter.png","stan barrett.png","don whittington.png","rodney combs.png",
