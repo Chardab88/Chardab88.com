@@ -1,7 +1,10 @@
 import json
 import shutil
+from pathlib import Path
 import cloudscraper
 from bs4 import BeautifulSoup
+
+BASE_DIR = Path(__file__).resolve().parent
 
 HEADERS = {
     "User-Agent": (
@@ -14,7 +17,6 @@ HEADERS = {
         "application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
     ),
     "Accept-Language": "en-US,en;q=0.5",
-    "Accept-Encoding": "gzip, deflate, br",
     "Connection": "keep-alive",
     "Upgrade-Insecure-Requests": "1",
     "Sec-Fetch-Dest": "document",
@@ -30,12 +32,12 @@ HEADERS = {
 # ----------------------------
 
 def load_json(path):
-    with open(path, "r", encoding="utf-8") as f:
+    with open(BASE_DIR / path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
 def save_json(path, data):
-    with open(path, "w", encoding="utf-8") as f:
+    with open(BASE_DIR / path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
 
@@ -59,7 +61,10 @@ def backup_files():
 
     for file in files:
         try:
-            shutil.copyfile(file, file.replace(".json", "_backup.json"))
+            shutil.copyfile(
+                BASE_DIR / file,
+                BASE_DIR / file.replace(".json", "_backup.json")
+            )
             print(f"Backup created: {file}")
         except Exception as e:
             print(f"Backup failed for {file}: {e}")
@@ -87,10 +92,6 @@ url = f"https://www.racing-reference.info/race-results/{year}-{race}/W"
 
 print(f"\nLoading {url}")
 
-backup_files()
-
-# cloudscraper handles the Cloudflare JS challenge that plain
-# requests/curl_cffi can't get past on this site.
 scraper = cloudscraper.create_scraper()
 
 r = scraper.get(
@@ -99,11 +100,41 @@ r = scraper.get(
     timeout=30
 )
 
+html = r.text
+
 if r.status_code != 200:
     print(f"Failed: HTTP {r.status_code}")
+    print(f"Response URL: {r.url}")
+    print(f"Server: {r.headers.get('Server', 'unknown')}")
+    print(f"Content-Type: {r.headers.get('Content-Type', 'unknown')}")
+    print(f"Content-Encoding: {r.headers.get('Content-Encoding', 'none')}")
+    if r.headers.get("CF-Ray"):
+        print(f"Cloudflare Ray ID: {r.headers['CF-Ray']}")
+    body_preview = BeautifulSoup(r.text, "html.parser").get_text(" ", strip=True)
+    if body_preview:
+        print(f"Response details: {body_preview[:500]}")
+    if r.status_code != 403:
+        quit()
+
+    saved_path = input("Path to saved race-results HTML (or press Enter to quit): ").strip().strip('"')
+    if not saved_path:
+        quit()
+
+    html_path = Path(saved_path).expanduser()
+    if not html_path.is_absolute():
+        html_path = BASE_DIR / html_path
+    try:
+        html = html_path.read_text(encoding="utf-8", errors="replace")
+    except OSError as error:
+        print(f"Could not read saved HTML: {error}")
+        quit()
+
+soup = BeautifulSoup(html, "html.parser")
+if not any(len(row.find_all("td")) == 10 for row in soup.find_all("tr")):
+    print("No race-results table found; JSON files were not changed.")
     quit()
 
-soup = BeautifulSoup(r.text, "html.parser")
+backup_files()
 
 hilo = load_json("hilodriv.json")
 drivers = load_json("drivers.json")
