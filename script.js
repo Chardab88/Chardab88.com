@@ -18,8 +18,8 @@ const wallImages = [
   "fonty flock.png","buddy baker.png","davey allison.png",  "greg biffle.png","neil bonnett.png","harry gant.png","geoff bodine.png","ryan newman.png","kasey kahne.png",
   "ryan blaney.png","curtis turner.png","marvin panch.png", "william byron.png","ernie irvan.png","dick hutcherson.png","leeroy yarbrough.png","christopher bell.png","dick rathman.png",
   "tim richmond.png","donnieallison.png", "tyler reddick.png","sterling marlin.png","clint bowyer.png","bob welborn.png","cotton owens.png",
-  "paul goldsmith.png","kyle petty.png","alex bowman.png", "svg.png","darel dienger.png","jim reed.png","marshall teague.png","ajfoyt.png","jamie mcmurray.png","chase briscoe.png",
-  "chris buescher.png","ross chastain.png",
+  "paul goldsmith.png","kyle petty.png","alex bowman.png", "svg.png","chase briscoe.png",
+  "chris buescher.png","ross chastain.png","darel dienger.png","jim reed.png","marshall teague.png","ajfoyt.png","jamie mcmurray.png",
   
   "austin dillon.png", "ralph moody.png","dan gurney.png","tiny lund.png","dave marcis.png","alan kulwicki.png",
   "ward burton.png","jeremy mayfield.png","bob flock.png", "hershel mcgriff.png","eddie pagan.png","lloyd dane.png","eddie gray.png",
