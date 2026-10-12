@@ -1134,7 +1134,7 @@
     "name": "BJ McLeod",
     "starts": 153,
     "wins": 0,
-    "team": "Live Fast Motorsports",
+    "team": "NY Racing",
     "carnum": 44,
     "rokyear": 2015,
     "forcarnum": [
@@ -1152,7 +1152,8 @@
       "Spire Motorsports",
       "Garage 66",
       "Rick Ware Racing",
-      "Circle Sport"
+      "Circle Sport",
+      "NY Racing"
     ]
   },
   {
@@ -2068,7 +2069,7 @@
     "name": "Gray Gaulding",
     "starts": 61,
     "wins": 0,
-    "team": "Rick Ware Racing",
+    "team": "Garage 66",
     "carnum": 66,
     "rokyear": 2016,
     "forcarnum": [
@@ -2088,7 +2089,8 @@
       "The Motorsports Group",
       "BK Racing",
       "Premium Motorsports",
-      "StarCom"
+      "StarCom",
+      "Garage 66"
     ]
   },
   {
